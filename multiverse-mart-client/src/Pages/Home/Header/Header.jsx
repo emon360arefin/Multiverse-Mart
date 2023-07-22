@@ -2,6 +2,7 @@ import { FaRegUser, FaRegHeart } from 'react-icons/fa';
 import { HiOutlineShoppingBag } from "react-icons/hi";
 import { HiMagnifyingGlass } from "react-icons/hi2";
 import './Header.css'
+
 const Header = () => {
     return (
         <div className='bg-[#C0DBFF]'>
