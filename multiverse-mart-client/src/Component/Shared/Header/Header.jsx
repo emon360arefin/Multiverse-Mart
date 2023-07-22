@@ -5,7 +5,11 @@ import './Header.css'
 
 const Header = () => {
     return (
+<<<<<<< HEAD
         <div className='bg-[#C0DBFF] bg-opacity-50 backdrop-filter'>
+=======
+        <div className='bg-[#C0DBFF] bg-opacity-50 backdrop-filter backdrop-blur-xl'>
+>>>>>>> 9a3baf4627d6817752f5bebefe200761584288f0
             <div className='w-[95%] mx-auto'>
                 <div className='flex py-8 items-center justify-between w-full gap-24'>
                     <div className='flex gap-10 items-center justify-between'>
