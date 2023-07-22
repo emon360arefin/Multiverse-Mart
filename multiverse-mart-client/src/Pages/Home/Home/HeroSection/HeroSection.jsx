@@ -11,11 +11,11 @@ const HeroSection = () => {
     return (
         <>
             <div className='bg-gradient-to-r from-blue-50 to-white md:relative'  >
-                <div className='w-[90%] mx-auto '>
+                <div className='w-[95%] mx-auto '>
 
                     <div className='md:flex md:justify-between' >
                         {/* for left side hero section */}
-                        <div id='div-one' className='md:items-center mt-10 md:ms-10 w-[280px] md:w-auto' data-aos="fade-left" data-aos-duration="1000">
+                        <div id='div-one' className='md:items-center mt-10  w-[280px] md:w-auto' data-aos="fade-left" data-aos-duration="1000">
                             <h2 className='font-bold text-5xl py-5 bg-gradient-to-r from-cyan-400 to-blue-700 text-transparent bg-clip-text'>
                                 Your Gateway <br /> <span className='ms-10'>to</span><br />
                                 <Typewriter
