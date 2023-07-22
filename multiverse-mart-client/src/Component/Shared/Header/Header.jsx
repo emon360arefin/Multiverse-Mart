@@ -5,18 +5,19 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <div className='bg-[#C0DBFF]'>
-            <div className='w-[95%] mx-auto'>
-                <div className='flex py-8 items-center justify-center gap-24'>
-                    <div className='flex gap-10 items-center'>
+        <div className='bg-[#C0DBFF] bg-opacity-50 backdrop-filter backdrop-blur-xl'>
+            <div className='max-w-[1400px] mx-auto'>
+                <div className='flex py-8 items-center justify-between w-full gap-24'>
+                    <div className='flex gap-10 items-center justify-between'>
                         <div className='text-3xl font-black'>
                             <h4>Multiverse Mart</h4>
                         </div>
                         <div>
                             <ul className='flex gap-8 font-semibold items-center'>
-                                <li>About us</li>
-                                <li>Contact us</li>
-                                <li>To become seller</li>
+                                <li>Shop</li>
+                                <li>About</li>
+                                <li>Contact</li>
+                                <li>Become a Seller</li>
                             </ul>
                         </div>
                     </div>
