@@ -6,7 +6,7 @@ import './Header.css'
 const Header = () => {
     return (
         <div className='bg-[#C0DBFF] bg-opacity-50 backdrop-filter backdrop-blur-xl'>
-            <div className='max-w-[1400px] mx-auto'>
+            <div className='max-w-[90%] mx-auto'>
                 <div className='flex py-8 items-center justify-between w-full gap-24'>
                     <div className='flex gap-10 items-center justify-between'>
                         <div className='text-3xl font-black'>
