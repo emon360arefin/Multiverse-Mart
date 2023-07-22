@@ -1,10 +1,9 @@
- import lottieAni2 from '../../../../../public/t28DLBfUCa.json';
+import lottieAni2 from '../../../../../public/t28DLBfUCa.json';
 import Lottie from "lottie-react";
 import './Hero.css';
 import { Typewriter } from 'react-simple-typewriter';
 import { useEffect } from 'react';
 import Aos from 'aos';
-import bg from '../../../../../public/banner.jpg'
 const HeroSection = () => {
     useEffect(() => {
         Aos.init()
