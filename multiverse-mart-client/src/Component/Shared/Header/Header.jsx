@@ -23,7 +23,7 @@ const Header = () => {
     return (
         <div>
             {/* Mobile Responsive */}
-            <div className={`md:hidden bg-white absolute w-full h-full bottom-0 z-20 py-24 pl-10 duration-0 ${open?"left-0":"left-[-100%]"}`}>
+            <div className={`md:hidden bg-white absolute w-full h-full bottom-0 z-20 py-24 pl-10 duration-500 ${open?"left-0":"left-[-100%]"}`}>
                 <ul className=''>
                     {
                         items && items.map(item => <li className='cursor-pointer text-black py-7 px-3'>{item.name}</li>)
@@ -35,7 +35,7 @@ const Header = () => {
                     <div className='flex h-20 items-center justify-between w-full gap-auto'>
 
                         {/* Left Column */}
-                        <div className='flex gap-2 md:gap-10 items-center justify-start w-auto md:w-3/5 border-2 border-red-400'>
+                        <div className='flex gap-2 md:gap-10 items-center justify-start w-auto md:w-3/5'>
 
                             {/* Hamburger */}
                             <div className='text-2xl block md:hidden' onClick={()=>{setOpen(!open)}}>
@@ -60,7 +60,7 @@ const Header = () => {
 
 
                         {/* Right Column */}
-                        <div className='flex  justify-end items-center gap-5  relative  w-full md:w-2/5 ml-3 border-2 border-green-400'>
+                        <div className='flex  justify-end items-center gap-5  relative  w-full md:w-2/5 ml-3'>
 
                             {/* Form For Desktop*/}
                             <form className={`hidden md:flex justify-center items-center  border bg-white overflow-hidden rounded-md cursor-pointer absolute md:static left-0 transition-all ease-in-out  duration-700 ${onFocus ? "right-0" : ""}`}>
