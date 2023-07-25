@@ -3,7 +3,7 @@ import lottieAni1 from '../../../../../public/qaueXSdUgC.json';
 import lottieAni3 from '../../../../../public/sale.json';
 import React, { useRef, useState, useEffect } from 'react';
 import Lottie from "lottie-react";
-import './Hero.css';
+// import './Hero.css';
 import { Typewriter } from 'react-simple-typewriter';
 import Aos from 'aos';
 import { Swiper, SwiperSlide } from 'swiper/react';
