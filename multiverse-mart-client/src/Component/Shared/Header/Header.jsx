@@ -26,8 +26,10 @@ const Header = () => {
     return (
         <div className='bg-[#e6f1ff] bg-opacity-50 backdrop-filter backdrop-blur-xl sticky top-0 left-0 right-0 z-20 shadow-sm '>
             <div className='w-[95%] mx-auto'>
-                <div className='flex h-20 items-center justify-between w-full gap-auto md:gap-24'>
-                    <div className='flex gap-2 md:gap-10 items-center justify-between '>
+                <div className='flex h-20 items-center justify-between w-full gap-auto'>
+
+                    {/* Left Column */}
+                    <div className='flex gap-2 md:gap-10 items-center justify-start w-auto md:w-3/5 border-2 border-red-400'>
 
                         {/* Hamburger */}
                         <div className='text-2xl block md:hidden'>
@@ -49,7 +51,10 @@ const Header = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className='flex  justify-center items-center gap-5  relative  w-full md:w-auto ml-3'>
+
+
+                    {/* Right Column */}
+                    <div className='flex  justify-end items-center gap-5  relative  w-full md:w-2/5 ml-3 border-2 border-green-400'>
 
                         {/* Form For Desktop*/}
                         <form className={`hidden md:flex justify-center items-center  border bg-white overflow-hidden rounded-md cursor-pointer absolute md:static left-0 transition-all ease-in-out  duration-700 ${onFocus ? "right-0" : ""}`}>
@@ -88,7 +93,7 @@ const Header = () => {
                         </form>
 
 
-                        <div className='flex gap-5 icon-title justify-center items-center text-xl mt-2 ml-auto cursor-pointer '>
+                        <div className='flex gap-5 icon-title justify-center items-center text-xl mt-2 cursor-pointer '>
                             <div className='flex flex-col justify-center items-center icon-title hover:text-button-primary'>
                                 <FaRegUser className=''></FaRegUser>
                                 <h6 className='text-[11px]'>Profile</h6>
@@ -103,6 +108,9 @@ const Header = () => {
                             </div>
                         </div>
                     </div>
+
+
+
                 </div>
             </div>
         </div>
