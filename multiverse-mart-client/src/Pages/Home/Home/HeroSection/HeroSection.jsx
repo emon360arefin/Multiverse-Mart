@@ -39,8 +39,8 @@ const HeroSection = () => {
                         <SwiperSlide>
                             <div className='md:flex md:justify-between md:w-[90%] md:mx-auto' >
                                 {/* for left side hero section */}
-                                <div  className='md:items-center mt-10 md:ms-10 w-[280px] md:w-auto' data-aos="fade-left" data-aos-duration="1000">
-                                    <h2 className='font-bold text-5xl py-5 bg-gradient-to-r from-cyan-400 to-blue-700 text-transparent bg-clip-text'>
+                                <div  className='md:items-center mt-10 ms-3 md:ms-10 w-[280px] md:w-auto' data-aos="fade-left" data-aos-duration="1000">
+                                    <h2 className='font-bold md:text-5xl text-2xl py-5 bg-gradient-to-r from-cyan-400 to-blue-700 text-transparent bg-clip-text'>
                                         Your Gateway <br /> <span className='ms-10'>to</span><br />
                                         <Typewriter
                                             words={['Endless Possibilities']}
@@ -57,10 +57,10 @@ const HeroSection = () => {
 
                                 {/* right side hero section */}
 
-                                <div  className='items-center px-20 bg-white flex' data-aos="fade-up-left" data-aos-duration="1000"  >
+                                <div  className='md:items-center md:px-20 bg-white md:flex hidden' data-aos="fade-up-left" data-aos-duration="1000"  >
                                     <div className=' '  >
 
-                                        <Lottie animationData={lottieAni1} className='h-[500px] md:w-[550px] w-[250px] ' />
+                                        <Lottie animationData={lottieAni1} className='md:h-[500px] md:w-[550px] w-[200px] ' />
 
                                     </div>
                                   
@@ -73,8 +73,8 @@ const HeroSection = () => {
                         <SwiperSlide>
                             <div className='md:flex md:justify-between md:w-[90%] md:mx-auto' >
                                 {/* for left side hero section */}
-                                <div id='div-one' className='md:items-center mt-10  md:ms-10 w-[280px] md:w-auto' data-aos="fade-left" data-aos-duration="1000">
-                                    <h2 className='font-bold text-5xl py-5 bg-gradient-to-r from-cyan-400 to-blue-700 text-transparent bg-clip-text'>
+                                <div id='div-one' className='md:items-center mt-10 ms-3 md:ms-10 w-[280px] md:w-auto' data-aos="fade-left" data-aos-duration="1000">
+                                    <h2 className='font-bold md:text-5xl text-2xl py-5 bg-gradient-to-r from-cyan-400 to-blue-700 text-transparent bg-clip-text'>
                                     Shop, Save, Smile <br /> <span className='ms-20'>to</span><br />
                                         <Typewriter
                                             words={['Online Bliss']}
@@ -91,10 +91,10 @@ const HeroSection = () => {
 
                                 {/* right side hero section */}
 
-                                <div  className='items-center px-20 bg-white flex' data-aos="fade-up-left" data-aos-duration="1000"  >
+                                <div  className='md:items-center md:px-20 bg-white md:flex hidden' data-aos="fade-up-left" data-aos-duration="1000"  >
                                     <div className=' '  >
 
-                                        <Lottie animationData={lottieAni3} className='h-[500px] md:w-[500px] w-[250px] mx-auto  ' />
+                                        <Lottie animationData={lottieAni3} className='md:h-[500px] md:w-[500px] w-[250px] mx-auto  ' />
 
                                     </div>
                                   
@@ -107,8 +107,8 @@ const HeroSection = () => {
                         <SwiperSlide>
                             <div className='md:flex md:justify-between md:w-[90%] md:mx-auto' >
                                 {/* for left side hero section */}
-                                <div id='div-one' className='md:items-center mt-10  md:ms-10' data-aos="fade-left" data-aos-duration="1000">
-                                    <h2 className='font-bold text-5xl py-5 bg-gradient-to-r from-cyan-400 to-blue-700 text-transparent bg-clip-text'>
+                                <div id='div-one' className='md:items-center mt-10 ms-3  md:ms-10' data-aos="fade-left" data-aos-duration="1000">
+                                    <h2 className='font-bold md:text-5xl text-2xl py-5 bg-gradient-to-r from-cyan-400 to-blue-700 text-transparent bg-clip-text'>
                                     Shop Securely <br /> <span className='ms-10'>in</span><br />
                                         <Typewriter
                                             words={['Your Trusted Online Retailer']}
@@ -125,7 +125,7 @@ const HeroSection = () => {
 
                                 {/* right side hero section */}
 
-                                <div  className='items-center px-20 bg-white flex' data-aos="fade-up-left" data-aos-duration="1000"  >
+                                <div  className='md:items-center md:px-20 bg-white md:flex hidden' data-aos="fade-up-left" data-aos-duration="1000"  >
                                     <div className=' '  >
 
                                         <Lottie animationData={lottieAni2} className='h-[500px] md:w-[500px] w-[250px] ' />
