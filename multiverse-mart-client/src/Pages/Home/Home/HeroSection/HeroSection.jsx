@@ -19,7 +19,7 @@ const HeroSection = () => {
     }, [])
     return (
         <>
-            <div className='bg-gradient-to-r from-blue-50 to-white '  >
+            <div className='bg-gradient-to-r from-blue-50 to-white'>
                 <div className='w-[100%] mx-auto '>
                     <Swiper
                         spaceBetween={30}
