@@ -5,7 +5,7 @@ import Lottie from "lottie-react";
 import { HiMagnifyingGlass } from "react-icons/hi2";
 import { AiOutlineClose } from "react-icons/ai";
 import signUpAnimation from './../../../assets/animation/animation_lkilhovo.json';
-import men from './../../../assets/CategoryImage/men.png'
+
 
 
 import './Header.css'
@@ -25,7 +25,7 @@ const Header = () => {
         { "id": 4, "name": "Become A Seller", "path": "/become-a-seller" }
     ];
     const categories=[
-        { "id": 1, "name": "Men","subMenu":true,"image":{men},"subLinks":[
+        { "id": 1, "name": "Men","subMenu":true,"image":"https://i.ibb.co/xGCbCHW/men.png","subLinks":[
             {
                 "mid": 1, "name": "TopWear", "subLinks":[
                     {
@@ -54,17 +54,22 @@ const Header = () => {
             }
         ] },
         {
-            "id": 2, "name": "Women" ,"subMenu":true,"image":{men},"subLinks":[
+            "id": 2, "name": "Women" ,"subMenu":true,"image":"https://i.ibb.co/R3MthCX/women.png","subLinks":[
 
             ]
         },
         {
-            "id": 3, "name": "Kids" ,"subMenu":true,"image":{men},"subLinks":[
+            "id": 3, "name": "Kids" ,"subMenu":true,"image":"https://i.ibb.co/sKtqM2g/kids.png","subLinks":[
 
             ]
         },
         {
-            "id": 4, "name": "Gadgets" ,"subMenu":true,"image":{men},"subLinks":[
+            "id": 4, "name": "Gadgets" ,"subMenu":true,"image":"https://i.ibb.co/qMcSFkf/gadget.png","subLinks":[
+
+            ]
+        },
+        {
+            "id": 5, "name": "Beauty" ,"subMenu":true,"image":"https://i.ibb.co/KWpHBcb/makep.png","subLinks":[
 
             ]
         },
@@ -177,7 +182,7 @@ const Header = () => {
                 </div>
             </div>
             {/* Second part of header(Category menu)*/}
-            <div className='w-[95%] mx-auto flex justify-evenly'>
+            <div className='w-[95%] mx-auto flex justify-between items-center'>
                 {
                     categories.map(category=><NavLink category={category} key={category.id}></NavLink>)
                 }
