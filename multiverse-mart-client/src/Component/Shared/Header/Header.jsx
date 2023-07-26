@@ -74,11 +74,16 @@ const Header = () => {
         },
     ]
 
+    const handleClose=(e)=>{
+        if(e.target.id==="wrapper") {
+            setOpen(open)
+        }
+    }
 
     return (
         <div>
             {/* First part of header */}
-            <div className={`${open?'overlay':""}`}>
+            <div className={`${open?'overlay':""}`} onClick={()=>handleClose} id="wrapper">
                 {/* Mobile Responsive */}
                 <div className={`md:hidden bg-white absolute max-w-[70%] h-full bottom-0 z-30 py-24 pl-10  duration-500 border-r-2 border-b-2 ${open ? "left-0" : "left-[-100%]"}`} >
                     <div className='flex justify-between items-center gap-5'>
@@ -106,7 +111,6 @@ const Header = () => {
                                 <div className='text-2xl block md:hidden' onClick={() => { setOpen(!open) }}>
                                     {open ? <AiOutlineClose></AiOutlineClose> : <HiOutlineMenu></HiOutlineMenu>}
                                 </div>
-
                                 <div className='w-12 md:w-64'>
                                     <a href="">
                                         <img src="/Multiverse Mart Logo.png " alt="" className='w-full hidden md:block' />
