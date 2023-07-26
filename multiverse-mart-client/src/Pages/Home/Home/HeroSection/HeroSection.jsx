@@ -57,7 +57,7 @@ const HeroSection = () => {
 
                                 {/* right side hero section */}
 
-                                <div  className='md:items-center md:px-20 bg-white md:flex hidden' data-aos="fade-up-left" data-aos-duration="1000"  >
+                                <div  className='md:items-center md:px-20  md:flex hidden' data-aos="fade-up-left" data-aos-duration="1000"  >
                                     <div className=' '  >
 
                                         <Lottie animationData={lottieAni1} className='md:h-[500px] md:w-[550px] w-[200px] ' />
@@ -91,7 +91,7 @@ const HeroSection = () => {
 
                                 {/* right side hero section */}
 
-                                <div  className='md:items-center md:px-20 bg-white md:flex hidden' data-aos="fade-up-left" data-aos-duration="1000"  >
+                                <div  className='md:items-center md:px-20 md:flex hidden' data-aos="fade-up-left" data-aos-duration="1000"  >
                                     <div className=' '  >
 
                                         <Lottie animationData={lottieAni3} className='md:h-[500px] md:w-[500px] w-[250px] mx-auto  ' />
@@ -125,7 +125,7 @@ const HeroSection = () => {
 
                                 {/* right side hero section */}
 
-                                <div  className='md:items-center md:px-20 bg-white md:flex hidden' data-aos="fade-up-left" data-aos-duration="1000"  >
+                                <div  className='md:items-center md:px-20  md:flex hidden' data-aos="fade-up-left" data-aos-duration="1000"  >
                                     <div className=' '  >
 
                                         <Lottie animationData={lottieAni2} className='h-[500px] md:w-[500px] w-[250px] ' />
