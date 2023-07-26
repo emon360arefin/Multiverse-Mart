@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import SectionTitle from '../../../Component/Shared/Titles/SectionTitle';
-import ShopButton from '../../../Component/Buttons/ShopButton';
+ 
 
 const PopularShop = () => {
     const [shops, setShop] = useState([])
     const [shopsCategory, setShopCategory] = useState(shops)
+
     useEffect(() => {
         fetch('./shop.json')
             .then(res => res.json())
