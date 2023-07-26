@@ -64,7 +64,7 @@ const Header = () => {
             ]
         },
         {
-            "id": 2, "name": "Gadgets" ,"subMenu":true,"image":{men},"subLinks":[
+            "id": 4, "name": "Gadgets" ,"subMenu":true,"image":{men},"subLinks":[
 
             ]
         },
