@@ -19,9 +19,8 @@ const Header = () => {
 
     const items = [
         { "id": 1, "name": "Shop", "path": "/shop" },
-        { "id": 2, "name": "About", "path": "/about" },
-        { "id": 3, "name": "Contact", "path": "/contact" },
-        { "id": 4, "name": "Become A Seller", "path": "/become-a-seller" }
+        { "id": 2, "name": "Product", "path": "/product" },
+        { "id": 3, "name": "Become A Seller", "path": "/become-a-seller" }
     ];
     const categories = [
         {
@@ -108,20 +107,20 @@ const Header = () => {
                         <div className='flex h-20 items-center justify-between w-full gap-auto'>
 
                             {/* Left Column */}
-                            <div className='flex gap-2 md:gap-10 items-center justify-start w-auto md:w-3/5'>
+                            <div className='flex gap-2 md:gap-10 items-center justify-between w-auto md:w-3/5'>
 
                                 {/* Hamburger */}
                                 <div className='text-2xl block md:hidden' onClick={() => { setOpen(!open) }}>
                                     {open ? <AiOutlineClose></AiOutlineClose> : <HiOutlineMenu></HiOutlineMenu>}
                                 </div>
-                                <div className='w-12 md:w-64'>
-                                    <a href="">
-                                        <img src="/Multiverse Mart Logo.png " alt="" className='w-full hidden md:block' />
+                                <div className='w-12 md:w-64 flex justify-center items-center'>
+                                    <a href="" className=''>
+                                        <img src="/mm-logo-4.png" alt="" className=' h-[55px] hidden md:block' />
                                         <img src="/favicon.png" alt="" className='w-full block md:hidden' />
                                     </a>
                                 </div>
                                 <div className='hidden md:block '>
-                                    <ul className='flex gap-6 font-semibold items-center '>
+                                    <ul className='flex gap-6 items-center '>
                                         {
                                             items && items.map(item => <li className='cursor-pointer text-black py-7 ' key={item.id}>{item.name}</li>)
                                         }
