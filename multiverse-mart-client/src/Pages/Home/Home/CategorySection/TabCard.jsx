@@ -7,11 +7,11 @@ const TabCard = (props) => {
     console.log("single", singleProduct);
     return (
         <div className=' bg-white rounded-md shadow w-full'>
-            <div className=' border-2 h-56 flex justify-center overflow-hidden'>
+            <div className=' h-56 flex justify-center overflow-hidden border rounded-t-md'>
                 <img className='scale-[105%]' src={Image} alt="" />
             </div>
 
-            <div className=''>
+            <div className='p-4 md:p-6'>
                 <h2>{Name}</h2>
             </div>
 
