@@ -1,6 +1,6 @@
 import { FaRegUser, FaRegHeart } from 'react-icons/fa';
 import { HiOutlineShoppingBag, HiOutlineMenu } from "react-icons/hi";
-import React from "react";
+import React, { useEffect } from "react";
 import Lottie from "lottie-react";
 import { HiMagnifyingGlass } from "react-icons/hi2";
 import { AiOutlineClose } from "react-icons/ai";
@@ -81,6 +81,13 @@ const Header = () => {
             setOpen(!open)
         }
     }
+    useEffect(() => {
+        if (open) {
+          document.body.style.overflow = 'hidden';
+        } else {
+          document.body.style.overflow = 'auto';
+        }
+      }, [open]);
 
     return (
         <div>
