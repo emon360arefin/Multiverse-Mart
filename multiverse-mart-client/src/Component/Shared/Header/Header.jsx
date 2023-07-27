@@ -76,16 +76,17 @@ const Header = () => {
         },
     ]
 
-    const handleClose=(e)=>{
-        if(e.target.id==="wrapper") {
-            setOpen(open)
+    function handleClose(e) {
+        if (e.target.id === "wrapper") {
+            console.log("Button Clicked");
+            setOpen(!open)
         }
     }
 
     return (
         <div>
             {/* First part of header */}
-            <div className={`${open?'overlay':""}`} onClick={()=>handleClose} id="wrapper">
+            <div className={`${open ? 'overlay' : ""}`} onClick={handleClose} id="wrapper">
                 {/* Mobile Responsive */}
                 <div className={`md:hidden bg-white absolute max-w-[70%] h-full bottom-0 z-30 py-24 pl-10  duration-500 border-r-2 border-b-2 ${open ? "left-0" : "left-[-100%]"}`} >
                     <div className='flex justify-between items-center gap-5'>
