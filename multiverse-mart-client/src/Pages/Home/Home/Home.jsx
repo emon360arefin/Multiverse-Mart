@@ -3,6 +3,8 @@ import CategorySection from "./CategorySection/CategorySection";
 import HeroSection from "./HeroSection/HeroSection";
 
 
+
+
 const Home = () => {
     return (
         <div>

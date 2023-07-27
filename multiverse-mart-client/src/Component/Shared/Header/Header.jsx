@@ -14,7 +14,6 @@ import { Link } from 'react-router-dom';
 import NavLink from './NavLink';
 
 const Header = () => {
-
     const [open, setOpen] = useState(false)
     const [onFocus, setOnFocus] = useState(false)
 
@@ -77,13 +76,18 @@ const Header = () => {
         },
     ]
 
+    const handleClose=(e)=>{
+        if(e.target.id==="wrapper") {
+            setOpen(open)
+        }
+    }
 
     return (
         <div>
             {/* First part of header */}
-            <div>
+            <div className={`${open?'overlay':""}`} onClick={()=>handleClose} id="wrapper">
                 {/* Mobile Responsive */}
-                <div className={`md:hidden bg-slate-50 absolute w-[70%] h-full bottom-0 z-20 py-24 pl-10 duration-500 border-r-2 border-b-2 ${open ? "left-0" : "left-[-100%]"}`}>
+                <div className={`md:hidden bg-white absolute max-w-[70%] h-full bottom-0 z-30 py-24 pl-10  duration-500 border-r-2 border-b-2 ${open ? "left-0" : "left-[-100%]"}`} >
                     <div className='flex justify-between items-center gap-5'>
                         <Lottie animationData={signUpAnimation} className='w-28' loop={true} />
                         <div>
@@ -98,7 +102,7 @@ const Header = () => {
                         }
                     </ul>
                 </div>
-                <div className='bg-[#e6f1ff] bg-opacity-50 backdrop-filter backdrop-blur-xl sticky top-0 left-0 right-0 z-20 shadow-sm '>
+                <div className={`bg-[#e6f1ff] bg-opacity-50 backdrop-filter backdrop-blur-xl sticky top-0 left-0 right-0 z-30  shadow-sm `}>
                     <div className='w-[95%] mx-auto'>
                         <div className='flex h-20 items-center justify-between w-full gap-auto'>
 
@@ -109,7 +113,6 @@ const Header = () => {
                                 <div className='text-2xl block md:hidden' onClick={() => { setOpen(!open) }}>
                                     {open ? <AiOutlineClose></AiOutlineClose> : <HiOutlineMenu></HiOutlineMenu>}
                                 </div>
-
                                 <div className='w-12 md:w-64'>
                                     <a href="">
                                         <img src="/Multiverse Mart Logo.png " alt="" className='w-full hidden md:block' />
@@ -184,7 +187,7 @@ const Header = () => {
                 </div>
             </div>
             {/* Second part of header(Category menu)*/}
-            <div className='w-[95%] mx-auto flex justify-between items-center'>
+            <div className='w-[95%] mx-auto flex justify-between items-center overflow-x-scroll'>
                 {
                     categories.map(category => <NavLink category={category} key={category.id}></NavLink>)
                 }
