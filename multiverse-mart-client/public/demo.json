@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Samsung s20",
+        "Category": "Mobile",
+        "Price": 1100
+    },
+    {
+        "name": "iPhone 13",
+        "Category": "Mobile",
+        "Price": 1200
+    },
+    {
+        "name": "HP Spectre x360",
+        "Category": "Laptop",
+        "Price": 1500
+    },
+    {
+        "name": "Sony WH-1000XM4",
+        "Category": "Headphones",
+        "Price": 350
+    },
+    {
+        "name": "Dell XPS 15",
+        "Category": "Laptop",
+        "Price": 1800
+    },
+    {
+        "name": "Samsung Galaxy Watch 4",
+        "Category": "Wearable",
+        "Price": 250
+    },
+    {
+        "name": "Google Pixel 6",
+        "Category": "Mobile",
+        "Price": 900
+    },
+    {
+        "name": "MacBook Pro 14",
+        "Category": "Laptop",
+        "Price": 2000
+    },
+    {
+        "name": "Bose QuietComfort Earbuds",
+        "Category": "Headphones",
+        "Price": 280
+    },
+    {
+        "name": "Fitbit Charge 4",
+        "Category": "Wearable",
+        "Price": 150
+    }
+]

@@ -24,52 +24,54 @@ const Header = () => {
         { "id": 3, "name": "Contact", "path": "/contact" },
         { "id": 4, "name": "Become A Seller", "path": "/become-a-seller" }
     ];
-    const categories=[
-        { "id": 1, "name": "Men","subMenu":true,"image":"https://i.ibb.co/xGCbCHW/men.png","subLinks":[
-            {
-                "mid": 1, "name": "TopWear", "subLinks":[
-                    {
-                        "topid": 1, "name": "T-Shirts", "link":"/"
-                    },
-                    {
-                        "topid": 2, "name": "Casual-Shirts", "link":"/"
-                    },
-                    {
-                        "topid": 2, "name": "Formal-Shirts", "link":"/"
-                    },
-                ]
-            },
-            {
-                "mid": 2, "name": "TopWear", "subLinks":[
-                    {
-                        "topid": 1, "name": "T-Shirts", "link":"/"
-                    },
-                    {
-                        "topid": 2, "name": "Casual-Shirts", "link":"/"
-                    },
-                    {
-                        "topid": 2, "name": "Formal-Shirts", "link":"/"
-                    },
-                ]
-            }
-        ] },
+    const categories = [
         {
-            "id": 2, "name": "Women" ,"subMenu":true,"image":"https://i.ibb.co/R3MthCX/women.png","subLinks":[
+            "id": 1, "name": "Men", "subMenu": true, "image": "https://i.ibb.co/xGCbCHW/men.png", "subLinks": [
+                {
+                    "mid": 1, "name": "TopWear", "subLinks": [
+                        {
+                            "topid": 1, "name": "T-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Casual-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Formal-Shirts", "link": "/"
+                        },
+                    ]
+                },
+                {
+                    "mid": 2, "name": "TopWear", "subLinks": [
+                        {
+                            "topid": 1, "name": "T-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Casual-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Formal-Shirts", "link": "/"
+                        },
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2, "name": "Women", "subMenu": true, "image": "https://i.ibb.co/R3MthCX/women.png", "subLinks": [
 
             ]
         },
         {
-            "id": 3, "name": "Kids" ,"subMenu":true,"image":"https://i.ibb.co/sKtqM2g/kids.png","subLinks":[
+            "id": 3, "name": "Kids", "subMenu": true, "image": "https://i.ibb.co/z5qSTwj/kid-edited.jpg", "subLinks": [
 
             ]
         },
         {
-            "id": 4, "name": "Gadgets" ,"subMenu":true,"image":"https://i.ibb.co/qMcSFkf/gadget.png","subLinks":[
+            "id": 4, "name": "Gadgets", "subMenu": true, "image": "https://i.ibb.co/qMcSFkf/gadget.png", "subLinks": [
 
             ]
         },
         {
-            "id": 5, "name": "Beauty" ,"subMenu":true,"image":"https://i.ibb.co/KWpHBcb/makep.png","subLinks":[
+            "id": 5, "name": "Beauty", "subMenu": true, "image": "https://i.ibb.co/KWpHBcb/makep.png", "subLinks": [
 
             ]
         },
@@ -184,7 +186,7 @@ const Header = () => {
             {/* Second part of header(Category menu)*/}
             <div className='w-[95%] mx-auto flex justify-between items-center'>
                 {
-                    categories.map(category=><NavLink category={category} key={category.id}></NavLink>)
+                    categories.map(category => <NavLink category={category} key={category.id}></NavLink>)
                 }
             </div>
         </div>
