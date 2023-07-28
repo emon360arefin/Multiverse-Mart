@@ -191,7 +191,7 @@ const Header = () => {
                 </div>
             </div>
             {/* Second part of header(Category menu)*/}
-            <div className='w-[95%] mx-auto flex justify-between items-center overflow-x-scroll'>
+            <div className='w-[95%] mx-auto flex justify-between items-center overflow-x-scroll categories-header'>
                 {
                     categories.map(category => <NavLink category={category} key={category.id}></NavLink>)
                 }
