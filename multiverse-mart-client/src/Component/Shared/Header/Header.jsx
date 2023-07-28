@@ -5,9 +5,6 @@ import Lottie from "lottie-react";
 import { HiMagnifyingGlass } from "react-icons/hi2";
 import { AiOutlineClose } from "react-icons/ai";
 import signUpAnimation from './../../../assets/animation/animation_lkilhovo.json';
-
-
-
 import './Header.css'
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
