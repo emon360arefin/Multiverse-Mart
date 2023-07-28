@@ -25,7 +25,7 @@ const Header = () => {
     ];
     const categories = [
         {
-            "id": 1, "name": "Men", "subMenu": true, "image": "https://i.ibb.co/xGCbCHW/men.png", "subLinks": [
+            "id": 1, "name": "Men", "subMenu": true, "image": "https://i.ibb.co/Ph4xWTN/men.png", "subLinks": [
                 {
                     "mid": 1, "name": "TopWear", "subLinks": [
                         {
@@ -55,22 +55,22 @@ const Header = () => {
             ]
         },
         {
-            "id": 2, "name": "Women", "subMenu": true, "image": "https://i.ibb.co/R3MthCX/women.png", "subLinks": [
+            "id": 2, "name": "Women", "subMenu": true, "image": "https://i.ibb.co/nmrbx7y/women.png", "subLinks": [
 
             ]
         },
         {
-            "id": 3, "name": "Kids", "subMenu": true, "image": "https://i.ibb.co/z5qSTwj/kid-edited.jpg", "subLinks": [
+            "id": 3, "name": "Kids", "subMenu": true, "image": "https://i.ibb.co/g7RBgPs/kids.png", "subLinks": [
 
             ]
         },
         {
-            "id": 4, "name": "Gadgets", "subMenu": true, "image": "https://i.ibb.co/qMcSFkf/gadget.png", "subLinks": [
+            "id": 4, "name": "Gadgets", "subMenu": true, "image": "https://i.ibb.co/4FrPyqh/gadets.png", "subLinks": [
 
             ]
         },
         {
-            "id": 5, "name": "Beauty", "subMenu": true, "image": "https://i.ibb.co/KWpHBcb/makep.png", "subLinks": [
+            "id": 5, "name": "Beauty", "subMenu": true, "image": "https://i.ibb.co/XzR0g0F/makeup.png", "subLinks": [
 
             ]
         },
