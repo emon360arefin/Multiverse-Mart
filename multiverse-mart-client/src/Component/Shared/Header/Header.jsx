@@ -1,6 +1,6 @@
 import { FaRegUser, FaRegHeart } from 'react-icons/fa';
 import { HiOutlineShoppingBag, HiOutlineMenu } from "react-icons/hi";
-import React from "react";
+import React, { useEffect } from "react";
 import Lottie from "lottie-react";
 import { HiMagnifyingGlass } from "react-icons/hi2";
 import { AiOutlineClose } from "react-icons/ai";
@@ -16,66 +16,80 @@ const Header = () => {
 
     const items = [
         { "id": 1, "name": "Shop", "path": "/shop" },
-        { "id": 2, "name": "About", "path": "/about" },
-        { "id": 3, "name": "Contact", "path": "/contact" },
-        { "id": 4, "name": "Become A Seller", "path": "/become-a-seller" }
+        { "id": 2, "name": "Product", "path": "/product" },
+        { "id": 3, "name": "Become A Seller", "path": "/become-a-seller" }
     ];
-    const categories=[
-        { "id": 1, "name": "Men","subMenu":true,"image":"https://i.ibb.co/xGCbCHW/men.png","subLinks":[
-            {
-                "mid": 1, "name": "TopWear", "subLinks":[
-                    {
-                        "topid": 1, "name": "T-Shirts", "link":"/"
-                    },
-                    {
-                        "topid": 2, "name": "Casual-Shirts", "link":"/"
-                    },
-                    {
-                        "topid": 2, "name": "Formal-Shirts", "link":"/"
-                    },
-                ]
-            },
-            {
-                "mid": 2, "name": "TopWear", "subLinks":[
-                    {
-                        "topid": 1, "name": "T-Shirts", "link":"/"
-                    },
-                    {
-                        "topid": 2, "name": "Casual-Shirts", "link":"/"
-                    },
-                    {
-                        "topid": 2, "name": "Formal-Shirts", "link":"/"
-                    },
-                ]
-            }
-        ] },
+    const categories = [
         {
-            "id": 2, "name": "Women" ,"subMenu":true,"image":"https://i.ibb.co/R3MthCX/women.png","subLinks":[
+            "id": 1, "name": "Men", "subMenu": true, "image": "https://i.ibb.co/xGCbCHW/men.png", "subLinks": [
+                {
+                    "mid": 1, "name": "TopWear", "subLinks": [
+                        {
+                            "topid": 1, "name": "T-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Casual-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Formal-Shirts", "link": "/"
+                        },
+                    ]
+                },
+                {
+                    "mid": 2, "name": "TopWear", "subLinks": [
+                        {
+                            "topid": 1, "name": "T-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Casual-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Formal-Shirts", "link": "/"
+                        },
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2, "name": "Women", "subMenu": true, "image": "https://i.ibb.co/R3MthCX/women.png", "subLinks": [
 
             ]
         },
         {
-            "id": 3, "name": "Kids" ,"subMenu":true,"image":"https://i.ibb.co/sKtqM2g/kids.png","subLinks":[
+            "id": 3, "name": "Kids", "subMenu": true, "image": "https://i.ibb.co/z5qSTwj/kid-edited.jpg", "subLinks": [
 
             ]
         },
         {
-            "id": 4, "name": "Gadgets" ,"subMenu":true,"image":"https://i.ibb.co/qMcSFkf/gadget.png","subLinks":[
+            "id": 4, "name": "Gadgets", "subMenu": true, "image": "https://i.ibb.co/qMcSFkf/gadget.png", "subLinks": [
 
             ]
         },
         {
-            "id": 5, "name": "Beauty" ,"subMenu":true,"image":"https://i.ibb.co/KWpHBcb/makep.png","subLinks":[
+            "id": 5, "name": "Beauty", "subMenu": true, "image": "https://i.ibb.co/KWpHBcb/makep.png", "subLinks": [
 
             ]
         },
     ]
 
+    function handleClose(e) {
+        if (e.target.id === "wrapper") {
+            console.log("Button Clicked");
+            setOpen(!open)
+        }
+    }
+    useEffect(() => {
+        if (open) {
+          document.body.style.overflow = 'hidden';
+        } else {
+          document.body.style.overflow = 'auto';
+        }
+      }, [open]);
 
     return (
         <div>
             {/* First part of header */}
-            <div className={`${open?'overlay':""}`}>
+            <div className={`${open ? 'overlay' : ""}`} onClick={handleClose} id="wrapper">
                 {/* Mobile Responsive */}
                 <div className={`md:hidden bg-white absolute max-w-[70%] h-full bottom-0 z-30 py-24 pl-10  duration-500 border-r-2 border-b-2 ${open ? "left-0" : "left-[-100%]"}`} >
                     <div className='flex justify-between items-center gap-5'>
@@ -97,21 +111,20 @@ const Header = () => {
                         <div className='flex h-20 items-center justify-between w-full gap-auto'>
 
                             {/* Left Column */}
-                            <div className='flex gap-2 md:gap-10 items-center justify-start w-auto md:w-3/5'>
+                            <div className='flex gap-2 md:gap-10 items-center justify-between w-auto md:w-3/5'>
 
                                 {/* Hamburger */}
                                 <div className='text-2xl block md:hidden' onClick={() => { setOpen(!open) }}>
                                     {open ? <AiOutlineClose></AiOutlineClose> : <HiOutlineMenu></HiOutlineMenu>}
                                 </div>
-
-                                <div className='w-12 md:w-64'>
-                                    <a href="">
-                                        <img src="/Multiverse Mart Logo.png " alt="" className='w-full hidden md:block' />
+                                <div className='w-12 md:w-64 flex justify-center items-center'>
+                                    <a href="" className=''>
+                                        <img src="/mm-logo-4.png" alt="" className=' h-[55px] hidden md:block' />
                                         <img src="/favicon.png" alt="" className='w-full block md:hidden' />
                                     </a>
                                 </div>
                                 <div className='hidden md:block '>
-                                    <ul className='flex gap-6 font-semibold items-center '>
+                                    <ul className='flex gap-6 items-center '>
                                         {
                                             items && items.map(item => <li className='cursor-pointer text-black py-7 ' key={item.id}>{item.name}</li>)
                                         }
@@ -178,9 +191,9 @@ const Header = () => {
                 </div>
             </div>
             {/* Second part of header(Category menu)*/}
-            <div className='w-[95%] mx-auto flex justify-between items-center'>
+            <div className='w-[95%] mx-auto flex justify-between items-center overflow-x-scroll'>
                 {
-                    categories.map(category=><NavLink category={category} key={category.id}></NavLink>)
+                    categories.map(category => <NavLink category={category} key={category.id}></NavLink>)
                 }
             </div>
         </div>

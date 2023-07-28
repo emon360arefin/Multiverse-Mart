@@ -14,8 +14,10 @@ const TrendingHome = () => {
     }, [])
     return (
         <div>
-            <div className='grid grid-cols'>
-
+            <div className='grid'>
+                {
+                    // signle card show
+                }
             </div>
         </div>
     );

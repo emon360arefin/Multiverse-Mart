@@ -1,406 +1,406 @@
 [
     {
-    "_id": "64ba7f4117a4f37d29526758",
-    "Name": "Lenovo IdeaPad Slim 5i Pro",
-    "Image": [
-    "https://i.ibb.co/1dYML8x/1a.webp",
-    "https://i.ibb.co/6FnpKzn/1b.webp",
-    "https://i.ibb.co/ChBFHKC/1c.webp",
-    "https://i.ibb.co/HVphVRn/1d.webp"
-    ],
-    "Price": 1020,
-    "IsOnSell": true,
-    "SellPercentage": 0,
-    "AvailableQuantity": 34,
-    "Sold": 23,
-    "gender-based-category": "male",
-    "Category": "Gadget",
-    "Brand": "Lenovo",
-    "Type": [
-    "Ultrabook"
-    ],
-    "Vendor": "Ryans Computer",
-    "AddReview": {},
-    "Description": "Laptop Brand - Lenovo, Laptop Series - IdeaPad Slim, Laptop Model - Lenovo IdeaPad Slim 5i Pro 16ITL-6, Processor Brand - Intel, Processor Type - Intel Core i5, Processor Generation - 11th (Intel), Processor Model - Core i5 11300H, Processor Max Turbo Frequency - 4.40 GHz, Processor Core - 4, Processor Thread - 8, Processor Cache - 8MB, Display Size - 16 Inch, Display Technology - 2.5K WQXGA IPS LED Display, Display Resolution - 2560 x 1600, Display Surface - Antiglare, Touch Display - No, Display Refresh Rate - 120Hz, Display Features - Brightness: 350 Nits, Aspect Ratio: 16:9, 100% sRGB, Eye Safe, Hardware-based Low Blue Light Solution, Memory (RAM) - 16GB, Memory Type - DDR4, Memory Bus (MHz) - 3200 MHz, Storage - 512GB SSD, Installed SSD Type - NVMe PCIe, Optical Drive - No-ODD, Multimedia Card Slot - 1, Supported Multimedia Card - SD Card Reader, Graphics Chipset - Nvidia MX450 Graphics, Graphics Memory Accessibility - Dedicated, Graphics Memory - 2GB, Graphics Memory Type - GDDR6",
-    "Color": "Storm Grey",
-    "Size": "16 inch"
+        "_id": "64ba7f4117a4f37d29526758",
+        "Name": "Lenovo IdeaPad Slim 5i Pro",
+        "Image": [
+            "https://i.ibb.co/1dYML8x/1a.webp",
+            "https://i.ibb.co/6FnpKzn/1b.webp",
+            "https://i.ibb.co/ChBFHKC/1c.webp",
+            "https://i.ibb.co/HVphVRn/1d.webp"
+        ],
+        "Price": 1020,
+        "IsOnSell": true,
+        "SellPercentage": 0,
+        "AvailableQuantity": 34,
+        "Sold": 23,
+        "gender-based-category": "male",
+        "Category": "Gadget",
+        "Brand": "Lenovo",
+        "Type": [
+            "Ultrabook"
+        ],
+        "Vendor": "Ryans Computer",
+        "AddReview": {},
+        "Description": "Laptop Brand - Lenovo, Laptop Series - IdeaPad Slim, Laptop Model - Lenovo IdeaPad Slim 5i Pro 16ITL-6, Processor Brand - Intel, Processor Type - Intel Core i5, Processor Generation - 11th (Intel), Processor Model - Core i5 11300H, Processor Max Turbo Frequency - 4.40 GHz, Processor Core - 4, Processor Thread - 8, Processor Cache - 8MB, Display Size - 16 Inch, Display Technology - 2.5K WQXGA IPS LED Display, Display Resolution - 2560 x 1600, Display Surface - Antiglare, Touch Display - No, Display Refresh Rate - 120Hz, Display Features - Brightness: 350 Nits, Aspect Ratio: 16:9, 100% sRGB, Eye Safe, Hardware-based Low Blue Light Solution, Memory (RAM) - 16GB, Memory Type - DDR4, Memory Bus (MHz) - 3200 MHz, Storage - 512GB SSD, Installed SSD Type - NVMe PCIe, Optical Drive - No-ODD, Multimedia Card Slot - 1, Supported Multimedia Card - SD Card Reader, Graphics Chipset - Nvidia MX450 Graphics, Graphics Memory Accessibility - Dedicated, Graphics Memory - 2GB, Graphics Memory Type - GDDR6",
+        "Color": "Storm Grey",
+        "Size": "16 inch"
     },
     {
-    "_id": "64ba7f4117a4f37d29526759",
-    "Name": "Lenovo Yoga Slim 7i Carbon",
-    "Image": [
-    "https://i.ibb.co/hy0HR6F/2a.webp",
-    "https://i.ibb.co/rkzf3JS/2b.webp",
-    "https://i.ibb.co/JkC5JMN/2c.webp",
-    "https://i.ibb.co/b6pYJ6d/2d.webp"
-    ],
-    "Price": 1760,
-    "IsOnSell": true,
-    "SellPercentage": 0,
-    "AvailableQuantity": 10,
-    "Sold": 20,
-    "Type": [
-    "Professional"
-    ],
-    "gender-based-category": "unisex",
-    "Category": "Laptop",
-    "Brand": "Lenovo",
-    "Vendor": "TechGuru Electronics",
-    "Ratings": 4.8,
-    "AddReview": {},
-    "Description": "The Lenovo Yoga Slim 7i Carbon is a lightweight and versatile laptop designed for both work and entertainment. It features a 13.3-inch QHD IPS touchscreen display with a resolution of 2560 x 1600, providing stunning visuals and responsive touch functionality. Powered by an Intel Core i7 11th Gen processor, 16GB of DDR4 RAM, and a lightning-fast 1TB NVMe SSD, this laptop delivers exceptional performance for multitasking and storage needs. The integrated Intel Iris Xe Graphics ensures smooth visuals and enhanced graphics capabilities for light gaming and creative work.",
-    "Color": "Moon White",
-    "Size": "13.3 inch"
+        "_id": "64ba7f4117a4f37d29526759",
+        "Name": "Lenovo Yoga Slim 7i Carbon",
+        "Image": [
+            "https://i.ibb.co/hy0HR6F/2a.webp",
+            "https://i.ibb.co/rkzf3JS/2b.webp",
+            "https://i.ibb.co/JkC5JMN/2c.webp",
+            "https://i.ibb.co/b6pYJ6d/2d.webp"
+        ],
+        "Price": 1760,
+        "IsOnSell": true,
+        "SellPercentage": 0,
+        "AvailableQuantity": 10,
+        "Sold": 20,
+        "Type": [ 
+            "Professional"
+        ],
+        "gender-based-category": "unisex",
+        "Category": "Laptop",
+        "Brand": "Lenovo",
+        "Vendor": "TechGuru Electronics",
+        "Ratings": 4.8,
+        "AddReview": {},
+        "Description": "The Lenovo Yoga Slim 7i Carbon is a lightweight and versatile laptop designed for both work and entertainment. It features a 13.3-inch QHD IPS touchscreen display with a resolution of 2560 x 1600, providing stunning visuals and responsive touch functionality. Powered by an Intel Core i7 11th Gen processor, 16GB of DDR4 RAM, and a lightning-fast 1TB NVMe SSD, this laptop delivers exceptional performance for multitasking and storage needs. The integrated Intel Iris Xe Graphics ensures smooth visuals and enhanced graphics capabilities for light gaming and creative work.",
+        "Color": "Moon White",
+        "Size": "13.3 inch"
     },
     {
-    "_id": "64ba7f4117a4f37d2952675a",
-    "Name": "Apple MacBook Air (2022) Apple M2 Chip 13.6 Inch",
-    "Image": [
-    "https://i.ibb.co/yF5hTZN/3a.webp",
-    "https://i.ibb.co/ZmXtN7C/3b.webp",
-    "https://i.ibb.co/wBWTM6t/3c.webp"
-    ],
-    "Price": 1419,
-    "IsOnSell": true,
-    "SellPercentage": 0,
-    "AvailableQuantity": 15,
-    "Sold": 25,
-    "gender-based-category": "unisex",
-    "Category": "Laptop",
-    "Brand": "Apple",
-    "Type": [
-    "Ultrabook"
-    ],
-    "Vendor": "iStore Electronics",
-    "Ratings": 4.9,
-    "AddReview": {},
-    "Description": "The Apple MacBook Air (2022) with the revolutionary Apple M2 Chip offers unprecedented performance and efficiency. With a stunning 13.6-inch Retina display featuring True Tone technology and a resolution of 2560 x 1600, you'll experience vibrant colors and sharp visuals. Powered by the cutting-edge Apple M2 Chip, 16GB of unified memory, and a lightning-fast 512GB SSD, this MacBook Air delivers blazing-fast performance and seamless multitasking. The 10-core GPU ensures smooth graphics rendering for graphics-intensive tasks and light gaming.",
-    "Color": "Space Gray",
-    "Size": "13.6 inch"
+        "_id": "64ba7f4117a4f37d2952675a",
+        "Name": "Apple MacBook Air (2022) Apple M2 Chip 13.6 Inch",
+        "Image": [
+            "https://i.ibb.co/yF5hTZN/3a.webp",
+            "https://i.ibb.co/ZmXtN7C/3b.webp",
+            "https://i.ibb.co/wBWTM6t/3c.webp"
+        ],
+        "Price": 1419,
+        "IsOnSell": true,
+        "SellPercentage": 0,
+        "AvailableQuantity": 15,
+        "Sold": 25,
+        "gender-based-category": "unisex",
+        "Category": "Laptop",
+        "Brand": "Apple",
+        "Type": [
+            "Ultrabook"
+        ],
+        "Vendor": "iStore Electronics",
+        "Ratings": 4.9,
+        "AddReview": {},
+        "Description": "The Apple MacBook Air (2022) with the revolutionary Apple M2 Chip offers unprecedented performance and efficiency. With a stunning 13.6-inch Retina display featuring True Tone technology and a resolution of 2560 x 1600, you'll experience vibrant colors and sharp visuals. Powered by the cutting-edge Apple M2 Chip, 16GB of unified memory, and a lightning-fast 512GB SSD, this MacBook Air delivers blazing-fast performance and seamless multitasking. The 10-core GPU ensures smooth graphics rendering for graphics-intensive tasks and light gaming.",
+        "Color": "Space Gray",
+        "Size": "13.6 inch"
     },
     {
-    "_id": "64ba7f4117a4f37d2952675b",
-    "Name": "Asus TUF Gaming A15 AMD Ryzen 7 6800H 15.6 Inch",
-    "Image": [
-    "https://i.ibb.co/fQgpk3v/4a.webp",
-    "https://i.ibb.co/7zJFQYR/4b.webp",
-    "https://i.ibb.co/NScqmJs/4c.webp",
-    "https://i.ibb.co/VYqC4PX/4d.webp"
-    ],
-    "Price": 1625,
-    "IsOnSell": true,
-    "SellPercentage": 0,
-    "AvailableQuantity": 8,
-    "Sold": 22,
-    "gender-based-category": "male",
-    "Category": "Laptop",
-    "Type": [
-    "Gaming",
-    "Professional"
-    ],
-    "Brand": "Asus",
-    "Vendor": "GamingPro Tech",
-    "Ratings": 4.6,
-    "AddReview": {},
-    "Description": "The Asus TUF Gaming A15 with an AMD Ryzen 7 6800H processor is a powerful gaming laptop designed for immersive gaming experiences. It boasts a 15.6-inch Full HD IPS display with a refresh rate of 144Hz, providing smooth and fluid visuals. Equipped with 16GB of DDR4 RAM, a lightning-fast 1TB NVMe SSD, and NVIDIA GeForce RTX 3060 graphics, this gaming laptop can handle even the most demanding games with ease. The RGB-backlit keyboard and anti-dust cooling system further enhance your gaming sessions.",
-    "Color": "Eclipse Gray",
-    "Size": "15.6 inch"
+        "_id": "64ba7f4117a4f37d2952675b",
+        "Name": "Asus TUF Gaming A15 AMD Ryzen 7 6800H 15.6 Inch",
+        "Image": [
+            "https://i.ibb.co/fQgpk3v/4a.webp",
+            "https://i.ibb.co/7zJFQYR/4b.webp",
+            "https://i.ibb.co/NScqmJs/4c.webp",
+            "https://i.ibb.co/VYqC4PX/4d.webp"
+        ],
+        "Price": 1625,
+        "IsOnSell": true,
+        "SellPercentage": 0,
+        "AvailableQuantity": 8,
+        "Sold": 22,
+        "gender-based-category": "male",
+        "Category": "Laptop",
+        "Type": [
+            "Gaming",
+            "Professional"
+        ],
+        "Brand": "Asus",
+        "Vendor": "GamingPro Tech",
+        "Ratings": 4.6,
+        "AddReview": {},
+        "Description": "The Asus TUF Gaming A15 with an AMD Ryzen 7 6800H processor is a powerful gaming laptop designed for immersive gaming experiences. It boasts a 15.6-inch Full HD IPS display with a refresh rate of 144Hz, providing smooth and fluid visuals. Equipped with 16GB of DDR4 RAM, a lightning-fast 1TB NVMe SSD, and NVIDIA GeForce RTX 3060 graphics, this gaming laptop can handle even the most demanding games with ease. The RGB-backlit keyboard and anti-dust cooling system further enhance your gaming sessions.",
+        "Color": "Eclipse Gray",
+        "Size": "15.6 inch"
     },
     {
-    "_id": "64ba7f4117a4f37d2952675c",
-    "Name": "Asus ZenBook Pro Duo 14 OLED Core i7 12700H 14.5 Inch",
-    "Image": [
-    "https://i.ibb.co/JqcMrJg/5a.webp",
-    "https://i.ibb.co/k0zwLjm/5b.webp",
-    "https://i.ibb.co/G2nw8vJ/5c.webp",
-    "https://i.ibb.co/NYV8H2q/5d.webp"
-    ],
-    "Price": 2177,
-    "IsOnSell": true,
-    "SellPercentage": 15,
-    "AvailableQuantity": 5,
-    "Sold": 35,
-    "gender-based-category": "unisex",
-    "Category": "Laptop",
-    "Type": [
-    "Gaming",
-    "Professional"
-    ],
-    "Brand": "Asus",
-    "Vendor": "TechMasters Electronics",
-    "Ratings": 4.9,
-    "AddReview": {},
-    "Description": "The Asus ZenBook Pro Duo 14 is a premium laptop designed for professional use and creative tasks. It features a primary 14.5-inch OLED touchscreen display with a 4K resolution, offering stunning visuals and precise color accuracy. In addition, it has a secondary 12.6-inch ScreenPad Plus, providing extra screen real estate for multitasking and creative workflows. Powered by an Intel Core i7 12700H processor, 32GB of DDR4 RAM, and a lightning-fast 1TB NVMe SSD, this laptop delivers exceptional performance for demanding tasks. The NVIDIA GeForce RTX 3070 graphics ensures smooth graphics rendering for content creation and editing.",
-    "Color": "Celestial Blue",
-    "Size": "14.5 inch"
+        "_id": "64ba7f4117a4f37d2952675c",
+        "Name": "Asus ZenBook Pro Duo 14 OLED Core i7 12700H 14.5 Inch",
+        "Image": [
+            "https://i.ibb.co/JqcMrJg/5a.webp",
+            "https://i.ibb.co/k0zwLjm/5b.webp",
+            "https://i.ibb.co/G2nw8vJ/5c.webp",
+            "https://i.ibb.co/NYV8H2q/5d.webp"
+        ],
+        "Price": 2177,
+        "IsOnSell": true,
+        "SellPercentage": 15,
+        "AvailableQuantity": 5,
+        "Sold": 35,
+        "gender-based-category": "unisex",
+        "Category": "Laptop",
+        "Type": [
+            "Gaming",
+            "Professional"
+        ],
+        "Brand": "Asus",
+        "Vendor": "TechMasters Electronics",
+        "Ratings": 4.9,
+        "AddReview": {},
+        "Description": "The Asus ZenBook Pro Duo 14 is a premium laptop designed for professional use and creative tasks. It features a primary 14.5-inch OLED touchscreen display with a 4K resolution, offering stunning visuals and precise color accuracy. In addition, it has a secondary 12.6-inch ScreenPad Plus, providing extra screen real estate for multitasking and creative workflows. Powered by an Intel Core i7 12700H processor, 32GB of DDR4 RAM, and a lightning-fast 1TB NVMe SSD, this laptop delivers exceptional performance for demanding tasks. The NVIDIA GeForce RTX 3070 graphics ensures smooth graphics rendering for content creation and editing.",
+        "Color": "Celestial Blue",
+        "Size": "14.5 inch"
     },
     {
-    "_id": "64ba7f4117a4f37d2952675d",
-    "Name": "Asus ZenBook Pro Duo 14 OLED UX8402ZE 12th Gen Intel Core i7 12700H 14.5 Inch",
-    "Image": [
-    "https://i.ibb.co/m0r8tbz/6a.webp",
-    "https://i.ibb.co/kmhC4mQ/6c.webp",
-    "https://i.ibb.co/V3V269w/6d.webp"
-    ],
-    "Price": 2599,
-    "IsOnSell": true,
-    "SellPercentage": 10,
-    "AvailableQuantity": 7,
-    "Sold": 43,
-    "gender-based-category": "unisex",
-    "Category": "Laptop",
-    "Type": [
-    "Professional"
-    ],
-    "Brand": "Asus",
-    "Vendor": "TechMasters Electronics",
-    "Ratings": 4.9,
-    "AddReview": {},
-    "Description": "The Asus ZenBook Pro Duo 14 UX8402ZE is a powerhouse for professional users and content creators. It features a primary 14.5-inch OLED touchscreen display with a 4K resolution, offering stunning visuals and precise color accuracy. Additionally, it has a secondary 12.6-inch ScreenPad Plus, providing extra screen real estate for multitasking and creative workflows. Powered by the 12th Gen Intel Core i7 12700H processor, 32GB of DDR4 RAM, and a lightning-fast 1TB NVMe SSD, this laptop delivers exceptional performance for demanding tasks. The NVIDIA GeForce RTX 3080 graphics ensures smooth graphics rendering and acceleration for graphics-intensive workloads.",
-    "Color": "Celestial Blue",
-    "Size": "14.5 inch"
+        "_id": "64ba7f4117a4f37d2952675d",
+        "Name": "Asus ZenBook Pro Duo 14 OLED UX8402ZE 12th Gen Intel Core i7 12700H 14.5 Inch",
+        "Image": [
+            "https://i.ibb.co/m0r8tbz/6a.webp",
+            "https://i.ibb.co/kmhC4mQ/6c.webp",
+            "https://i.ibb.co/V3V269w/6d.webp"
+        ],
+        "Price": 2599,
+        "IsOnSell": true,
+        "SellPercentage": 10,
+        "AvailableQuantity": 7,
+        "Sold": 43,
+        "gender-based-category": "unisex",
+        "Category": "Laptop",
+        "Type": [
+            "Professional"
+        ],
+        "Brand": "Asus",
+        "Vendor": "TechMasters Electronics",
+        "Ratings": 4.9,
+        "AddReview": {},
+        "Description": "The Asus ZenBook Pro Duo 14 UX8402ZE is a powerhouse for professional users and content creators. It features a primary 14.5-inch OLED touchscreen display with a 4K resolution, offering stunning visuals and precise color accuracy. Additionally, it has a secondary 12.6-inch ScreenPad Plus, providing extra screen real estate for multitasking and creative workflows. Powered by the 12th Gen Intel Core i7 12700H processor, 32GB of DDR4 RAM, and a lightning-fast 1TB NVMe SSD, this laptop delivers exceptional performance for demanding tasks. The NVIDIA GeForce RTX 3080 graphics ensures smooth graphics rendering and acceleration for graphics-intensive workloads.",
+        "Color": "Celestial Blue",
+        "Size": "14.5 inch"
     },
     {
-    "_id": "64ba7f4117a4f37d2952675e",
-    "Name": "Dell XPS 15 9520 Intel Core i7 12700H 15.6 Inch 3.5K OLED",
-    "Image": [
-    "https://i.ibb.co/cTkYqPQ/7a.webp",
-    "https://i.ibb.co/HgkGthT/7b.webp",
-    "https://i.ibb.co/0GmN3bP/7c.webp",
-    "https://i.ibb.co/v4YQ9bQ/7d.webp"
-    ],
-    "Price": 3125,
-    "IsOnSell": true,
-    "SellPercentage": 20,
-    "AvailableQuantity": 15,
-    "Sold": 55,
-    "gender-based-category": "unisex",
-    "Category": "Laptop",
-    "Type": [
-    "Gaming, Professional"
-    ],
-    "Brand": "Dell",
-    "Vendor": "TechZone Computers",
-    "Ratings": 4.7,
-    "AddReview": {},
-    "Description": "The Dell XPS 15 9520 is a versatile laptop catering to both gamers and professionals. It boasts a 15.6-inch 3.5K OLED display with stunning visuals and accurate colors. Powered by the Intel Core i7 12700H processor, 32GB of DDR4 RAM, and a lightning-fast 1TB NVMe SSD, this laptop offers powerful performance for multitasking and content creation. The NVIDIA GeForce RTX 3060 graphics card provides smooth gaming experiences and enhanced graphics capabilities for demanding applications. The sleek design and premium build quality make it a perfect choice for professionals on the go.",
-    "Color": "Silver",
-    "Size": "15.6 inch"
+        "_id": "64ba7f4117a4f37d2952675e",
+        "Name": "Dell XPS 15 9520 Intel Core i7 12700H 15.6 Inch 3.5K OLED",
+        "Image": [
+            "https://i.ibb.co/cTkYqPQ/7a.webp",
+            "https://i.ibb.co/HgkGthT/7b.webp",
+            "https://i.ibb.co/0GmN3bP/7c.webp",
+            "https://i.ibb.co/v4YQ9bQ/7d.webp"
+        ],
+        "Price": 3125,
+        "IsOnSell": true,
+        "SellPercentage": 20,
+        "AvailableQuantity": 15,
+        "Sold": 55,
+        "gender-based-category": "unisex",
+        "Category": "Laptop",
+        "Type": [
+            "Gaming, Professional"
+        ],
+        "Brand": "Dell",
+        "Vendor": "TechZone Computers",
+        "Ratings": 4.7,
+        "AddReview": {},
+        "Description": "The Dell XPS 15 9520 is a versatile laptop catering to both gamers and professionals. It boasts a 15.6-inch 3.5K OLED display with stunning visuals and accurate colors. Powered by the Intel Core i7 12700H processor, 32GB of DDR4 RAM, and a lightning-fast 1TB NVMe SSD, this laptop offers powerful performance for multitasking and content creation. The NVIDIA GeForce RTX 3060 graphics card provides smooth gaming experiences and enhanced graphics capabilities for demanding applications. The sleek design and premium build quality make it a perfect choice for professionals on the go.",
+        "Color": "Silver",
+        "Size": "15.6 inch"
     },
     {
-    "_id": "64ba7f4117a4f37d2952675f",
-    "Name": "Dell Inspiron 15 3520 Intel Core i7 1255U 15.6 Inch",
-    "Image": [
-    "https://i.ibb.co/GPDKV1z/8a.webp",
-    "https://i.ibb.co/qD0TFyR/8b.webp",
-    "https://i.ibb.co/1ZzwLCD/8c.webp",
-    "https://i.ibb.co/q7rmjGj/8d.webp"
-    ],
-    "Price": 1092,
-    "IsOnSell": true,
-    "SellPercentage": 15,
-    "AvailableQuantity": 20,
-    "Sold": 40,
-    "gender-based-category": "unisex",
-    "Category": "Laptop",
-    "Type": [
-    "Ultrabook"
-    ],
-    "Brand": "Dell",
-    "Vendor": "TechZone Computers",
-    "Ratings": 4.5,
-    "AddReview": {},
-    "Description": "The Dell Inspiron 15 3520 is a lightweight and portable ultrabook designed for productivity on the go. It features a 15.6-inch Full HD display with sharp visuals and wide viewing angles. Powered by the Intel Core i7 1255U processor, 16GB of DDR4 RAM, and a fast 512GB NVMe SSD, this ultrabook delivers smooth performance for everyday tasks and multitasking. The integrated Intel UHD Graphics ensures seamless graphics for casual gaming and multimedia use. With its slim and sleek design, it's an ideal companion for professionals and students alike.",
-    "Color": "Platinum Silver",
-    "Size": "15.6 inch"
+        "_id": "64ba7f4117a4f37d2952675f",
+        "Name": "Dell Inspiron 15 3520 Intel Core i7 1255U 15.6 Inch",
+        "Image": [
+            "https://i.ibb.co/GPDKV1z/8a.webp",
+            "https://i.ibb.co/qD0TFyR/8b.webp",
+            "https://i.ibb.co/1ZzwLCD/8c.webp",
+            "https://i.ibb.co/q7rmjGj/8d.webp"
+        ],
+        "Price": 1092,
+        "IsOnSell": true,
+        "SellPercentage": 15,
+        "AvailableQuantity": 20,
+        "Sold": 40,
+        "gender-based-category": "unisex",
+        "Category": "Laptop",
+        "Type": [
+            "Ultrabook"
+        ],
+        "Brand": "Dell",
+        "Vendor": "TechZone Computers",
+        "Ratings": 4.5,
+        "AddReview": {},
+        "Description": "The Dell Inspiron 15 3520 is a lightweight and portable ultrabook designed for productivity on the go. It features a 15.6-inch Full HD display with sharp visuals and wide viewing angles. Powered by the Intel Core i7 1255U processor, 16GB of DDR4 RAM, and a fast 512GB NVMe SSD, this ultrabook delivers smooth performance for everyday tasks and multitasking. The integrated Intel UHD Graphics ensures seamless graphics for casual gaming and multimedia use. With its slim and sleek design, it's an ideal companion for professionals and students alike.",
+        "Color": "Platinum Silver",
+        "Size": "15.6 inch"
     },
     {
-    "_id": "64ba7f4117a4f37d29526760",
-    "Name": "HP Envy 15-ep1890TX 11th Gen Intel Core i7 11800H 15.6 Inch",
-    "Image": [
-    "https://i.ibb.co/84ymLpF/9a.webp",
-    "https://i.ibb.co/NmHsNSM/9b.webp",
-    "https://i.ibb.co/Hx8Bthp/9c.webp",
-    "https://i.ibb.co/GnRZDBZ/9d.webp"
-    ],
-    "Price": 1850,
-    "IsOnSell": true,
-    "SellPercentage": 10,
-    "AvailableQuantity": 20,
-    "Sold": 40,
-    "gender-based-category": "unisex",
-    "Category": "Laptop",
-    "Type": [
-    "Ultrabook"
-    ],
-    "Brand": "HP",
-    "Vendor": "GigaElectronics",
-    "Ratings": 4.8,
-    "AddReview": {},
-    "Description": "The HP Envy 15-ep1890TX is a powerful Ultrabook designed for productivity and entertainment. It features an 11th Gen Intel Core i7 11800H processor, 16GB of DDR4 RAM, and a fast 512GB NVMe SSD, providing smooth performance for multitasking and fast data access. The 15.6-inch Full HD display offers crisp visuals, and the sleek design makes it a stylish companion for professionals and students on the move.",
-    "Color": "Natural Silver",
-    "Size": "15.6 inch"
+        "_id": "64ba7f4117a4f37d29526760",
+        "Name": "HP Envy 15-ep1890TX 11th Gen Intel Core i7 11800H 15.6 Inch",
+        "Image": [
+            "https://i.ibb.co/84ymLpF/9a.webp",
+            "https://i.ibb.co/NmHsNSM/9b.webp",
+            "https://i.ibb.co/Hx8Bthp/9c.webp",
+            "https://i.ibb.co/GnRZDBZ/9d.webp"
+        ],
+        "Price": 1850,
+        "IsOnSell": true,
+        "SellPercentage": 10,
+        "AvailableQuantity": 20,
+        "Sold": 40,
+        "gender-based-category": "unisex",
+        "Category": "Laptop",
+        "Type": [
+            "Ultrabook"
+        ],
+        "Brand": "HP",
+        "Vendor": "GigaElectronics",
+        "Ratings": 4.8,
+        "AddReview": {},
+        "Description": "The HP Envy 15-ep1890TX is a powerful Ultrabook designed for productivity and entertainment. It features an 11th Gen Intel Core i7 11800H processor, 16GB of DDR4 RAM, and a fast 512GB NVMe SSD, providing smooth performance for multitasking and fast data access. The 15.6-inch Full HD display offers crisp visuals, and the sleek design makes it a stylish companion for professionals and students on the move.",
+        "Color": "Natural Silver",
+        "Size": "15.6 inch"
     },
     {
-    "_id": "64ba7f4117a4f37d29526761",
-    "Name": "HP ProBook 440 G9 12th Gen Intel Core i5 1235U 14 Inch",
-    "Image": [
-    "https://i.ibb.co/MDDzqyM/10a.webp",
-    "https://i.ibb.co/QjjCsJM/10b.webp",
-    "https://i.ibb.co/PQdzTx1/10c.webp",
-    "https://i.ibb.co/brBzQ6d/10d.webp"
-    ],
-    "Price": 950,
-    "IsOnSell": true,
-    "SellPercentage": 15,
-    "AvailableQuantity": 12,
-    "Sold": 38,
-    "gender-based-category": "unisex",
-    "Category": "Laptop",
-    "Type": [
-    "Ultrabook"
-    ],
-    "Brand": "HP",
-    "Vendor": "GigaElectronics",
-    "Ratings": 4.5,
-    "AddReview": {},
-    "Description": "The HP ProBook 440 G9 is a sleek and portable Ultrabook perfect for business users. It features a 12th Gen Intel Core i5 1235U processor, 8GB of DDR4 RAM, and a speedy 256GB NVMe SSD, delivering reliable performance for day-to-day tasks. The 14-inch Full HD display provides clear visuals, and the sturdy build ensures durability for frequent travelers.",
-    "Color": "Space Gray",
-    "Size": "14 inch"
+        "_id": "64ba7f4117a4f37d29526761",
+        "Name": "HP ProBook 440 G9 12th Gen Intel Core i5 1235U 14 Inch",
+        "Image": [
+            "https://i.ibb.co/MDDzqyM/10a.webp",
+            "https://i.ibb.co/QjjCsJM/10b.webp",
+            "https://i.ibb.co/PQdzTx1/10c.webp",
+            "https://i.ibb.co/brBzQ6d/10d.webp"
+        ],
+        "Price": 950,
+        "IsOnSell": true,
+        "SellPercentage": 15,
+        "AvailableQuantity": 12,
+        "Sold": 38,
+        "gender-based-category": "unisex",
+        "Category": "Laptop",
+        "Type": [
+            "Ultrabook"
+        ],
+        "Brand": "HP",
+        "Vendor": "GigaElectronics",
+        "Ratings": 4.5,
+        "AddReview": {},
+        "Description": "The HP ProBook 440 G9 is a sleek and portable Ultrabook perfect for business users. It features a 12th Gen Intel Core i5 1235U processor, 8GB of DDR4 RAM, and a speedy 256GB NVMe SSD, delivering reliable performance for day-to-day tasks. The 14-inch Full HD display provides clear visuals, and the sturdy build ensures durability for frequent travelers.",
+        "Color": "Space Gray",
+        "Size": "14 inch"
     },
     {
-    "_id": "64ba7f4117a4f37d29526762",
-    "Name": "Acer Nitro 5 AN515-46-R3U8 AMD 15.6 Inch",
-    "Image": [
-    "https://i.ibb.co/CJq7jdf/11a.webp",
-    "https://i.ibb.co/DQvBCNj/11b.webp",
-    "https://i.ibb.co/r60W2ZD/11c.webp",
-    "https://i.ibb.co/CHJKbPB/11d.webp"
-    ],
-    "Price": 1120,
-    "IsOnSell": true,
-    "SellPercentage": 25,
-    "AvailableQuantity": 25,
-    "Sold": 55,
-    "gender-based-category": "unisex",
-    "Category": "Laptop",
-    "Type": [
-    "Gaming",
-    "Professional"
-    ],
-    "Brand": "Acer",
-    "Vendor": "AceTech Computers",
-    "Ratings": 4.6,
-    "AddReview": {},
-    "Description": "The Acer Nitro 5 AN515-46-R3U8 is a gaming laptop designed for professional use. Powered by an AMD processor, 16GB of DDR4 RAM, and a fast 512GB NVMe SSD, it delivers smooth performance for gaming and demanding applications. The 15.6-inch Full HD display and NVIDIA GeForce GTX graphics ensure immersive visuals for gaming and content creation. With its red-backlit keyboard and aggressive design, it stands out as a powerful gaming machine.",
-    "Color": "Obsidian Black",
-    "Size": "15.6 inch"
+        "_id": "64ba7f4117a4f37d29526762",
+        "Name": "Acer Nitro 5 AN515-46-R3U8 AMD 15.6 Inch",
+        "Image": [
+            "https://i.ibb.co/CJq7jdf/11a.webp",
+            "https://i.ibb.co/DQvBCNj/11b.webp",
+            "https://i.ibb.co/r60W2ZD/11c.webp",
+            "https://i.ibb.co/CHJKbPB/11d.webp"
+        ],
+        "Price": 1120,
+        "IsOnSell": true,
+        "SellPercentage": 25,
+        "AvailableQuantity": 25,
+        "Sold": 55,
+        "gender-based-category": "unisex",
+        "Category": "Laptop",
+        "Type": [
+            "Gaming",
+            "Professional"
+        ],
+        "Brand": "Acer",
+        "Vendor": "AceTech Computers",
+        "Ratings": 4.6,
+        "AddReview": {},
+        "Description": "The Acer Nitro 5 AN515-46-R3U8 is a gaming laptop designed for professional use. Powered by an AMD processor, 16GB of DDR4 RAM, and a fast 512GB NVMe SSD, it delivers smooth performance for gaming and demanding applications. The 15.6-inch Full HD display and NVIDIA GeForce GTX graphics ensure immersive visuals for gaming and content creation. With its red-backlit keyboard and aggressive design, it stands out as a powerful gaming machine.",
+        "Color": "Obsidian Black",
+        "Size": "15.6 inch"
     },
     {
-    "_id": "64ba7f4117a4f37d29526763",
-    "Name": "Acer Nitro 5 AN515-58-74EF Intel Core i7 12700H 15.6 Inch",
-    "Image": [
-    "https://i.ibb.co/0tZmygR/12a.webp",
-    "https://i.ibb.co/ChbQYDR/12b.webp",
-    "https://i.ibb.co/BNQ4RM0/12c.webp",
-    "https://i.ibb.co/vPc1zz3/12d.webp"
-    ],
-    "Price": 2180,
-    "IsOnSell": true,
-    "SellPercentage": 20,
-    "AvailableQuantity": 18,
-    "Sold": 42,
-    "gender-based-category": "unisex",
-    "Category": "Laptop",
-    "Type": [
-    "Gaming",
-    "Professional"
-    ],
-    "Brand": "Acer",
-    "Vendor": "AceTech Computers",
-    "Ratings": 4.7,
-    "AddReview": {},
-    "Description": "The Acer Nitro 5 AN515-58-74EF is a high-performance gaming laptop suitable for professional workloads. It features an Intel Core i7 12700H processor, 32GB of DDR4 RAM, and a blazing-fast 1TB NVMe SSD, ensuring smooth multitasking and fast storage access. The 15.6-inch Full HD display with a high refresh rate provides stunning visuals and a smooth gaming experience. Equipped with the NVIDIA GeForce RTX 3070 graphics card, it delivers outstanding gaming performance and accelerates content creation tasks.",
-    "Color": "Obsidian Black",
-    "Size": "15.6 inch"
+        "_id": "64ba7f4117a4f37d29526763",
+        "Name": "Acer Nitro 5 AN515-58-74EF Intel Core i7 12700H 15.6 Inch",
+        "Image": [
+            "https://i.ibb.co/0tZmygR/12a.webp",
+            "https://i.ibb.co/ChbQYDR/12b.webp",
+            "https://i.ibb.co/BNQ4RM0/12c.webp",
+            "https://i.ibb.co/vPc1zz3/12d.webp"
+        ],
+        "Price": 2180,
+        "IsOnSell": true,
+        "SellPercentage": 20,
+        "AvailableQuantity": 18,
+        "Sold": 42,
+        "gender-based-category": "unisex",
+        "Category": "Laptop",
+        "Type": [
+            "Gaming",
+            "Professional"
+        ],
+        "Brand": "Acer",
+        "Vendor": "AceTech Computers",
+        "Ratings": 4.7,
+        "AddReview": {},
+        "Description": "The Acer Nitro 5 AN515-58-74EF is a high-performance gaming laptop suitable for professional workloads. It features an Intel Core i7 12700H processor, 32GB of DDR4 RAM, and a blazing-fast 1TB NVMe SSD, ensuring smooth multitasking and fast storage access. The 15.6-inch Full HD display with a high refresh rate provides stunning visuals and a smooth gaming experience. Equipped with the NVIDIA GeForce RTX 3070 graphics card, it delivers outstanding gaming performance and accelerates content creation tasks.",
+        "Color": "Obsidian Black",
+        "Size": "15.6 inch"
     },
     {
-    "_id": "64ba7f4117a4f37d29526764",
-    "Name": "Acer Aspire 5 A515-57G 12th Gen Intel Core i5 1240P 15.6 Inch",
-    "Image": [
-    "https://i.ibb.co/p34cqSN/13a.webp",
-    "https://i.ibb.co/KX2L657/13b.webp",
-    "https://i.ibb.co/JFvr1zT/13c.webp",
-    "https://i.ibb.co/YNTjfn1/13d.webp"
-    ],
-    "Price": 950,
-    "IsOnSell": true,
-    "SellPercentage": 15,
-    "AvailableQuantity": 14,
-    "Sold": 36,
-    "gender-based-category": "unisex",
-    "Category": "Laptop",
-    "Type": [
-    "Ultrabook"
-    ],
-    "Brand": "Acer",
-    "Vendor": "AceTech Computers",
-    "Ratings": 4.4,
-    "AddReview": {},
-    "Description": "The Acer Aspire 5 A515-57G is a reliable and affordable Ultrabook designed for everyday tasks. It features a 12th Gen Intel Core i5 1240P processor, 8GB of DDR4 RAM, and a fast 512GB NVMe SSD, delivering decent performance for productivity and entertainment. The 15.6-inch Full HD display provides clear visuals, and the slim design makes it easy to carry around. It's an excellent choice for students and professionals on a budget.",
-    "Color": "Charcoal Black",
-    "Size": "15.6 inch"
+        "_id": "64ba7f4117a4f37d29526764",
+        "Name": "Acer Aspire 5 A515-57G 12th Gen Intel Core i5 1240P 15.6 Inch",
+        "Image": [
+            "https://i.ibb.co/p34cqSN/13a.webp",
+            "https://i.ibb.co/KX2L657/13b.webp",
+            "https://i.ibb.co/JFvr1zT/13c.webp",
+            "https://i.ibb.co/YNTjfn1/13d.webp"
+        ],
+        "Price": 950,
+        "IsOnSell": true,
+        "SellPercentage": 15,
+        "AvailableQuantity": 14,
+        "Sold": 36,
+        "gender-based-category": "unisex",
+        "Category": "Laptop",
+        "Type": [
+            "Ultrabook"
+        ],
+        "Brand": "Acer",
+        "Vendor": "AceTech Computers",
+        "Ratings": 4.4,
+        "AddReview": {},
+        "Description": "The Acer Aspire 5 A515-57G is a reliable and affordable Ultrabook designed for everyday tasks. It features a 12th Gen Intel Core i5 1240P processor, 8GB of DDR4 RAM, and a fast 512GB NVMe SSD, delivering decent performance for productivity and entertainment. The 15.6-inch Full HD display provides clear visuals, and the slim design makes it easy to carry around. It's an excellent choice for students and professionals on a budget.",
+        "Color": "Charcoal Black",
+        "Size": "15.6 inch"
     },
     {
-    "_id": "64ba7f4117a4f37d29526765",
-    "Name": "Microsoft Surface Laptop 5 Intel Core i5 1245U 13.5 Inch",
-    "Image": [
-    "https://i.ibb.co/d0h0wcS/14a.webp",
-    "https://i.ibb.co/9tdR7bG/14b.webp",
-    "https://i.ibb.co/WstF1yL/14c.webp"
-    ],
-    "Price": 1653,
-    "IsOnSell": true,
-    "SellPercentage": 12,
-    "AvailableQuantity": 10,
-    "Sold": 30,
-    "gender-based-category": "unisex",
-    "Category": "Laptop",
-    "Type": [
-    "Ultrabook"
-    ],
-    "Brand": "Microsoft",
-    "Vendor": "TechWorld Devices",
-    "Ratings": 4.6,
-    "AddReview": {},
-    "Description": "The Microsoft Surface Laptop 5 is a premium Ultrabook designed for productivity and portability. It features an Intel Core i5 1245U processor, 8GB of LPDDR4x RAM, and a fast 512GB SSD, providing smooth performance for everyday tasks. The 13.5-inch PixelSense touchscreen display with a resolution of 2256 x 1504 delivers crisp visuals and supports touch and pen input. With its lightweight design and long-lasting battery, it's an excellent choice for professionals and students on the move.",
-    "Color": "Platinum",
-    "Size": "13.5 inch"
+        "_id": "64ba7f4117a4f37d29526765",
+        "Name": "Microsoft Surface Laptop 5 Intel Core i5 1245U 13.5 Inch",
+        "Image": [
+            "https://i.ibb.co/d0h0wcS/14a.webp",
+            "https://i.ibb.co/9tdR7bG/14b.webp",
+            "https://i.ibb.co/WstF1yL/14c.webp"
+        ],
+        "Price": 1653,
+        "IsOnSell": true,
+        "SellPercentage": 12,
+        "AvailableQuantity": 10,
+        "Sold": 30,
+        "gender-based-category": "unisex",
+        "Category": "Laptop",
+        "Type": [
+            "Ultrabook"
+        ],
+        "Brand": "Microsoft",
+        "Vendor": "TechWorld Devices",
+        "Ratings": 4.6,
+        "AddReview": {},
+        "Description": "The Microsoft Surface Laptop 5 is a premium Ultrabook designed for productivity and portability. It features an Intel Core i5 1245U processor, 8GB of LPDDR4x RAM, and a fast 512GB SSD, providing smooth performance for everyday tasks. The 13.5-inch PixelSense touchscreen display with a resolution of 2256 x 1504 delivers crisp visuals and supports touch and pen input. With its lightweight design and long-lasting battery, it's an excellent choice for professionals and students on the move.",
+        "Color": "Platinum",
+        "Size": "13.5 inch"
     },
     {
-    "_id": "64ba7f4117a4f37d29526766",
-    "Name": "Microsoft Surface Laptop Studio Intel Core i5 11300H 16GB RAM 14.4 Inch",
-    "Image": [
-    "https://i.ibb.co/d0h0wcS/14a.webp",
-    "https://i.ibb.co/9tdR7bG/14b.webp",
-    "https://i.ibb.co/WstF1yL/14c.webp"
-    ],
-    "Price": 1782,
-    "IsOnSell": true,
-    "SellPercentage": 15,
-    "AvailableQuantity": 8,
-    "Sold": 22,
-    "gender-based-category": "unisex",
-    "Category": "Laptop",
-    "Type": [
-    "Ultrabook"
-    ],
-    "Brand": "Microsoft",
-    "Vendor": "TechWorld Devices",
-    "Ratings": 4.8,
-    "AddReview": {},
-    "Description": "The Microsoft Surface Laptop Studio is a versatile Ultrabook that transforms into a powerful creative workstation. It features an Intel Core i5 11300H processor, 16GB of DDR4 RAM, and a speedy 512GB NVMe SSD, offering exceptional performance for multitasking and content creation. The 14.4-inch PixelSense touchscreen display with a resolution of 2400 x 1600 supports touch, pen input, and studio mode for comfortable drawing and writing. The NVIDIA GeForce RTX 3050 Ti GPU accelerates graphics-intensive tasks and provides smooth gaming experiences.",
-    "Color": "Matte Black",
-    "Size": "14.4 inch"
+        "_id": "64ba7f4117a4f37d29526766",
+        "Name": "Microsoft Surface Laptop Studio Intel Core i5 11300H 16GB RAM 14.4 Inch",
+        "Image": [
+            "https://i.ibb.co/d0h0wcS/14a.webp",
+            "https://i.ibb.co/9tdR7bG/14b.webp",
+            "https://i.ibb.co/WstF1yL/14c.webp"
+        ],
+        "Price": 1782,
+        "IsOnSell": true,
+        "SellPercentage": 15,
+        "AvailableQuantity": 8,
+        "Sold": 22,
+        "gender-based-category": "unisex",
+        "Category": "Laptop",
+        "Type": [
+            "Ultrabook"
+        ],
+        "Brand": "Microsoft",
+        "Vendor": "TechWorld Devices",
+        "Ratings": 4.8,
+        "AddReview": {},
+        "Description": "The Microsoft Surface Laptop Studio is a versatile Ultrabook that transforms into a powerful creative workstation. It features an Intel Core i5 11300H processor, 16GB of DDR4 RAM, and a speedy 512GB NVMe SSD, offering exceptional performance for multitasking and content creation. The 14.4-inch PixelSense touchscreen display with a resolution of 2400 x 1600 supports touch, pen input, and studio mode for comfortable drawing and writing. The NVIDIA GeForce RTX 3050 Ti GPU accelerates graphics-intensive tasks and provides smooth gaming experiences.",
+        "Color": "Matte Black",
+        "Size": "14.4 inch"
     }
-    ]
+]
