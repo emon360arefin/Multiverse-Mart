@@ -120,7 +120,7 @@ const Header = () => {
                                 </div>
                                 <div className='w-12 md:w-64 flex justify-center items-center'>
                                     <a href="" className=''>
-                                        <img src="/mm-logo-4.png" alt="" className=' h-[55px] hidden md:block' />
+                                        <img src="/logo-blue.png" alt="" className=' h-[45px] hidden md:block' />
                                         <img src="/favicon.png" alt="" className='w-full block md:hidden' />
                                     </a>
                                 </div>
@@ -192,7 +192,7 @@ const Header = () => {
                 </div>
             </div>
             {/* Second part of header(Category menu)*/}
-            <div className='w-[95%] mx-auto flex justify-between items-center overflow-x-scroll bar'>
+            <div className='w-[95%] mx-auto flex justify-between items-center overflow-x-scroll'>
                 {
                     categories.map(category => <NavLink category={category} key={category.id}></NavLink>)
                 }
