@@ -5,13 +5,10 @@
     height: 100%;
     z-index: 50;
 }
-<<<<<<< HEAD
 
 .bar::-webkit-scrollbar {
     display: none;
 }
-=======
 .categories-header::-webkit-scrollbar{
     display: none;
 }
->>>>>>> 4b371a1771f30b75eaf638dc584c5c3f56e9d564
