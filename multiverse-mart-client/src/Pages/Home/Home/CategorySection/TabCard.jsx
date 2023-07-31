@@ -14,7 +14,7 @@ const TabCard = (props) => {
 
                 <img className={` transition-all ease-in-out duration-700 ${hover ? 'scale-[115%]' : ' scale-[105%]'}`} src={hover ? Image[1] : Image[0]} alt="" />
 
-                <div className={`absolute flex flex-col gap-4 h-full w-[115%] bg-transparent hover:bg-[#8e8e8e3b] p-4 items-end transition-all ease-in-out duration-500 ${hover ? 'top-0 right-0' : ' top-0 -right-16'}`}>
+                <div className={`absolute flex flex-col gap-4 h-full w-[115%] bg-transparent hover:bg-[#8e8e8e3b] p-4 items-end transition-all ease-in-out duration-500 ${hover ? 'top-0 right-0' : ' top-0 right-0'}`}>
 
                     <div className='p-3 text-black hover:text-white  rounded-full bg-white hover:bg-black shadow-md w-10 h-10 flex justify-center items-center transition-all ease-in-out duration-300 cursor-pointer'>
                         <BsFillCartPlusFill ></BsFillCartPlusFill>

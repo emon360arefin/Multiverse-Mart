@@ -78,18 +78,19 @@ const Header = () => {
             setOpen(!open)
         }
     }
+
     useEffect(() => {
         if (open) {
-          document.body.style.overflow = 'hidden';
+            document.body.style.overflow = 'hidden';
         } else {
-          document.body.style.overflow = 'auto';
+            document.body.style.overflow = 'auto';
         }
-      }, [open]);
+    }, [open]);
 
     return (
-        <div>
+        <div className='sticky top-0 right-0 left-0 z-40'>
             {/* First part of header */}
-            <div className={`${open ? 'overlay' : ""}`} onClick={handleClose} id="wrapper">
+            <div className={`  ${open ? 'overlay' : ""}`} onClick={handleClose} id="wrapper">
                 {/* Mobile Responsive */}
                 <div className={`md:hidden bg-white absolute max-w-[70%] h-full bottom-0 z-30 py-24 pl-10  duration-500 border-r-2 border-b-2 ${open ? "left-0" : "left-[-100%]"}`} >
                     <div className='flex justify-between items-center gap-5'>
@@ -191,7 +192,7 @@ const Header = () => {
                 </div>
             </div>
             {/* Second part of header(Category menu)*/}
-            <div className='w-[95%] mx-auto flex justify-between items-center overflow-x-scroll'>
+            <div className='w-[95%] mx-auto flex justify-between items-center overflow-x-scroll bar'>
                 {
                     categories.map(category => <NavLink category={category} key={category.id}></NavLink>)
                 }
