@@ -5,10 +5,18 @@ import Lottie from "lottie-react";
 import { HiMagnifyingGlass } from "react-icons/hi2";
 import { AiOutlineClose } from "react-icons/ai";
 import signUpAnimation from './../../../assets/animation/animation_lkilhovo.json';
+<<<<<<< HEAD
+import Marquee from "react-fast-marquee";
+
+
+
+=======
+>>>>>>> cbf1f92c90b0646fafbb9abd26f066fdecbd96d0
 import './Header.css'
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import NavLink from './NavLink';
+import MobileNavLinks from './MobileNavLinks';
 
 const Header = () => {
     const [open, setOpen] = useState(false)
@@ -21,7 +29,7 @@ const Header = () => {
     ];
     const categories = [
         {
-            "id": 1, "name": "Men", "subMenu": true, "image": "https://i.ibb.co/xGCbCHW/men.png", "subLinks": [
+            "id": 1, "name": "Men", "subMenu": true, "image": "https://i.ibb.co/tXhy1t6/men.png", "subLinks": [
                 {
                     "mid": 1, "name": "TopWear", "subLinks": [
                         {
@@ -36,7 +44,7 @@ const Header = () => {
                     ]
                 },
                 {
-                    "mid": 2, "name": "TopWear", "subLinks": [
+                    "mid": 2, "name": "BottomWear", "subLinks": [
                         {
                             "topid": 1, "name": "T-Shirts", "link": "/"
                         },
@@ -47,27 +55,452 @@ const Header = () => {
                             "topid": 2, "name": "Formal-Shirts", "link": "/"
                         },
                     ]
-                }
+                },
+                {
+                    "mid": 2, "name": "SleepWear", "subLinks": [
+                        {
+                            "topid": 1, "name": "T-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Casual-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Formal-Shirts", "link": "/"
+                        },
+                    ]
+                },
+                {
+                    "mid": 2, "name": "InnerWear", "subLinks": [
+                        {
+                            "topid": 1, "name": "T-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Casual-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Formal-Shirts", "link": "/"
+                        },
+                    ]
+                },
+                {
+                    "mid": 2, "name": "InnerWear", "subLinks": [
+                        {
+                            "topid": 1, "name": "T-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Casual-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Formal-Shirts", "link": "/"
+                        },
+                    ]
+                },
+                {
+                    "mid": 2, "name": "InnerWear", "subLinks": [
+                        {
+                            "topid": 1, "name": "T-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Casual-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Formal-Shirts", "link": "/"
+                        },
+                    ]
+                },
+                {
+                    "mid": 2, "name": "InnerWear", "subLinks": [
+                        {
+                            "topid": 1, "name": "T-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Casual-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Formal-Shirts", "link": "/"
+                        },
+                    ]
+                },
             ]
         },
         {
-            "id": 2, "name": "Women", "subMenu": true, "image": "https://i.ibb.co/R3MthCX/women.png", "subLinks": [
-
+            "id": 2, "name": "Women","subMenu": true, "image": "https://i.ibb.co/t3G1PqM/women.png", "subLinks": [
+                {
+                    "mid": 1, "name": "TopWear", "subLinks": [
+                        {
+                            "topid": 1, "name": "T-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Casual-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Formal-Shirts", "link": "/"
+                        },
+                    ]
+                },
+                {
+                    "mid": 2, "name": "BottomWear", "subLinks": [
+                        {
+                            "topid": 1, "name": "T-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Casual-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Formal-Shirts", "link": "/"
+                        },
+                    ]
+                },
+                {
+                    "mid": 2, "name": "SleepWear", "subLinks": [
+                        {
+                            "topid": 1, "name": "T-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Casual-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Formal-Shirts", "link": "/"
+                        },
+                    ]
+                },
+                {
+                    "mid": 2, "name": "InnerWear", "subLinks": [
+                        {
+                            "topid": 1, "name": "T-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Casual-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Formal-Shirts", "link": "/"
+                        },
+                    ]
+                },
+                {
+                    "mid": 2, "name": "InnerWear", "subLinks": [
+                        {
+                            "topid": 1, "name": "T-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Casual-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Formal-Shirts", "link": "/"
+                        },
+                    ]
+                },
+                {
+                    "mid": 2, "name": "InnerWear", "subLinks": [
+                        {
+                            "topid": 1, "name": "T-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Casual-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Formal-Shirts", "link": "/"
+                        },
+                    ]
+                },
+                {
+                    "mid": 2, "name": "InnerWear", "subLinks": [
+                        {
+                            "topid": 1, "name": "T-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Casual-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Formal-Shirts", "link": "/"
+                        },
+                    ]
+                },
             ]
         },
         {
-            "id": 3, "name": "Kids", "subMenu": true, "image": "https://i.ibb.co/z5qSTwj/kid-edited.jpg", "subLinks": [
-
+            "id": 3, "name": "Kids","subMenu": true, "image": "https://i.ibb.co/0fTpDqJ/kids.png", "subLinks": [
+                {
+                    "mid": 1, "name": "TopWear", "subLinks": [
+                        {
+                            "topid": 1, "name": "T-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Casual-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Formal-Shirts", "link": "/"
+                        },
+                    ]
+                },
+                {
+                    "mid": 2, "name": "BottomWear", "subLinks": [
+                        {
+                            "topid": 1, "name": "T-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Casual-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Formal-Shirts", "link": "/"
+                        },
+                    ]
+                },
+                {
+                    "mid": 2, "name": "SleepWear", "subLinks": [
+                        {
+                            "topid": 1, "name": "T-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Casual-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Formal-Shirts", "link": "/"
+                        },
+                    ]
+                },
+                {
+                    "mid": 2, "name": "InnerWear", "subLinks": [
+                        {
+                            "topid": 1, "name": "T-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Casual-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Formal-Shirts", "link": "/"
+                        },
+                    ]
+                },
+                {
+                    "mid": 2, "name": "InnerWear", "subLinks": [
+                        {
+                            "topid": 1, "name": "T-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Casual-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Formal-Shirts", "link": "/"
+                        },
+                    ]
+                },
+                {
+                    "mid": 2, "name": "InnerWear", "subLinks": [
+                        {
+                            "topid": 1, "name": "T-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Casual-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Formal-Shirts", "link": "/"
+                        },
+                    ]
+                },
+                {
+                    "mid": 2, "name": "InnerWear", "subLinks": [
+                        {
+                            "topid": 1, "name": "T-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Casual-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Formal-Shirts", "link": "/"
+                        },
+                    ]
+                },
             ]
         },
         {
-            "id": 4, "name": "Gadgets", "subMenu": true, "image": "https://i.ibb.co/qMcSFkf/gadget.png", "subLinks": [
-
+            "id": 4, "name": "Gadgets","subMenu": true, "image": "https://i.ibb.co/vYwvFz2/gadget.png", "subLinks": [
+                {
+                    "mid": 1, "name": "TopWear", "subLinks": [
+                        {
+                            "topid": 1, "name": "T-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Casual-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Formal-Shirts", "link": "/"
+                        },
+                    ]
+                },
+                {
+                    "mid": 2, "name": "BottomWear", "subLinks": [
+                        {
+                            "topid": 1, "name": "T-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Casual-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Formal-Shirts", "link": "/"
+                        },
+                    ]
+                },
+                {
+                    "mid": 2, "name": "SleepWear", "subLinks": [
+                        {
+                            "topid": 1, "name": "T-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Casual-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Formal-Shirts", "link": "/"
+                        },
+                    ]
+                },
+                {
+                    "mid": 2, "name": "InnerWear", "subLinks": [
+                        {
+                            "topid": 1, "name": "T-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Casual-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Formal-Shirts", "link": "/"
+                        },
+                    ]
+                },
+                {
+                    "mid": 2, "name": "InnerWear", "subLinks": [
+                        {
+                            "topid": 1, "name": "T-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Casual-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Formal-Shirts", "link": "/"
+                        },
+                    ]
+                },
+                {
+                    "mid": 2, "name": "InnerWear", "subLinks": [
+                        {
+                            "topid": 1, "name": "T-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Casual-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Formal-Shirts", "link": "/"
+                        },
+                    ]
+                },
+                {
+                    "mid": 2, "name": "InnerWear", "subLinks": [
+                        {
+                            "topid": 1, "name": "T-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Casual-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Formal-Shirts", "link": "/"
+                        },
+                    ]
+                },
             ]
         },
         {
-            "id": 5, "name": "Beauty", "subMenu": true, "image": "https://i.ibb.co/KWpHBcb/makep.png", "subLinks": [
-
+            "id": 5, "name": "Beauty", "subMenu": true, "image": "https://i.ibb.co/TYYhpbf/makeup.png", "subLinks": [
+                {
+                    "mid": 1, "name": "TopWear", "subLinks": [
+                        {
+                            "topid": 1, "name": "T-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Casual-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Formal-Shirts", "link": "/"
+                        },
+                    ]
+                },
+                {
+                    "mid": 2, "name": "BottomWear", "subLinks": [
+                        {
+                            "topid": 1, "name": "T-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Casual-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Formal-Shirts", "link": "/"
+                        },
+                    ]
+                },
+                {
+                    "mid": 2, "name": "SleepWear", "subLinks": [
+                        {
+                            "topid": 1, "name": "T-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Casual-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Formal-Shirts", "link": "/"
+                        },
+                    ]
+                },
+                {
+                    "mid": 2, "name": "InnerWear", "subLinks": [
+                        {
+                            "topid": 1, "name": "T-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Casual-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Formal-Shirts", "link": "/"
+                        },
+                    ]
+                },
+                {
+                    "mid": 2, "name": "InnerWear", "subLinks": [
+                        {
+                            "topid": 1, "name": "T-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Casual-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Formal-Shirts", "link": "/"
+                        },
+                    ]
+                },
+                {
+                    "mid": 2, "name": "InnerWear", "subLinks": [
+                        {
+                            "topid": 1, "name": "T-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Casual-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Formal-Shirts", "link": "/"
+                        },
+                    ]
+                },
+                {
+                    "mid": 2, "name": "InnerWear", "subLinks": [
+                        {
+                            "topid": 1, "name": "T-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Casual-Shirts", "link": "/"
+                        },
+                        {
+                            "topid": 2, "name": "Formal-Shirts", "link": "/"
+                        },
+                    ]
+                },
             ]
         },
     ]
@@ -90,9 +523,13 @@ const Header = () => {
     return (
         <div className='sticky top-0 right-0 left-0 z-40'>
             {/* First part of header */}
+<<<<<<< HEAD
+            <div className={`${open ? 'overlay overflow-y-auto' : ""}`} onClick={handleClose} id="wrapper">
+=======
             <div className={`  ${open ? 'overlay' : ""}`} onClick={handleClose} id="wrapper">
+>>>>>>> cbf1f92c90b0646fafbb9abd26f066fdecbd96d0
                 {/* Mobile Responsive */}
-                <div className={`md:hidden bg-white absolute max-w-[70%] h-full bottom-0 z-30 py-24 pl-10  duration-500 border-r-2 border-b-2 ${open ? "left-0" : "left-[-100%]"}`} >
+                <div className={`md:hidden bg-white absolute max-w-[70%] max-h-screen bottom-0 z-30 py-24  pl-10  duration-500 border-r-2 border-b-2 ${open ? "left-0" : "left-[-100%]"}`} >
                     <div className='flex justify-between items-center gap-5'>
                         <Lottie animationData={signUpAnimation} className='w-28' loop={true} />
                         <div>
@@ -103,7 +540,13 @@ const Header = () => {
                     </div>
                     <ul className=''>
                         {
-                            items && items.map(item => <li className='cursor-pointer text-black py-7' key={item.id}>{item.name}</li>)
+                            categories && categories.map(item => <MobileNavLinks className='cursor-pointer text-black' item={item} open={open} setOpen={setOpen} key={item.id}></MobileNavLinks>)
+                        }
+                    </ul>
+                    <ul className=''>
+                        {
+                            items && items.map(item => <MobileNavLinks className='cursor-pointer text-black' item={item} key={item.id}>
+                            </MobileNavLinks>)
                         }
                     </ul>
                 </div>
