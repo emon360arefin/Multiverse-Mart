@@ -1,0 +1,1359 @@
+[
+    {
+        "name": "Nivea Cream",
+        "image": [
+            "https://i.ibb.co/WpVJ7zw/41q-L0q-GK00-L-AC-1.jpg",
+            "https://i.ibb.co/WpVJ7zw/41q-L0q-GK00-L-AC-1.jpg",
+            "https://i.ibb.co/bbHFL1k/41q-L0q-GK00-L-AC-PIbundle-4-Top-Right-0-0-SH20.jpg"
+        ],
+        "price": 10.99,
+        "isOnSell": true,
+        "sellPercentage": 20,
+        "quantity": {
+            "available": 100,
+            "sold": 50
+        },
+        "gender-based-category": "Women",
+        "category": "Cosmetics",
+        "subCategory": "Cream",
+        "brand": "Nivea",
+        "vendor": "Vendor X",
+        "ratings": 4.8,
+        "review": [
+            {
+                "username": "User1",
+                "rating": 5,
+                "comment": "Love it! Best cream ever."
+            }
+        ],
+        "description": "Nivea Cream is a moisturizing cream that keeps your skin soft and smooth.",
+        "color": "White",
+        "Size": "100ml"
+    },
+    {
+        "name": "Nivea Lotion",
+        "image": [
+            "https://i.ibb.co/803w5QT/61-Mqes-Z2-L-AC-SX569.jpg",
+            "https://i.ibb.co/T02hDrk/61oj-P8hw0-YL-AC-SX569.jpg",
+            "https://i.ibb.co/mG81kr7/71-SW3z-Uo-X2-L-AC-SX569.jpg"
+        ],
+        "price": 8.50,
+        "isOnSell": false,
+        "sellPercentage": 0,
+        "quantity": {
+            "available": 200,
+            "sold": 100
+        },
+        "gender-based-category": "Women",
+        "category": "Cosmetics",
+        "subCategory": "Lotion",
+        "brand": "Nivea",
+        "vendor": "Vendor X",
+        "ratings": 4.5,
+        "review": [
+            {
+                "username": "User2",
+                "rating": 4,
+                "comment": "Great lotion, non-greasy formula."
+            }
+        ],
+        "description": "Nivea Lotion is a lightweight and fast-absorbing moisturizer for all skin types.",
+        "color": "Blue",
+        "Size": "250ml"
+    },
+    {
+        "name": "Nivea Lip Balm",
+        "image": [
+            "https://i.ibb.co/HVSDzGW/61c-Wxof-N0y-L-AC-SX569.jpg",
+            "https://i.ibb.co/8xWQbsS/51ld61-EFM2-L-AC-SX569.jpg"
+        ],
+        "price": 4.99,
+        "isOnSell": true,
+        "sellPercentage": 10,
+        "quantity": {
+            "available": 50,
+            "sold": 20
+        },
+        "gender-based-category": "Unisex",
+        "category": "Cosmetics",
+        "subCategory": "Lip Care",
+        "brand": "Nivea",
+        "vendor": "Vendor X",
+        "ratings": 4.2,
+        "review": [
+            {
+                "username": "User3",
+                "rating": 4,
+                "comment": "Keeps my lips hydrated all day!"
+            }
+        ],
+        "description": "Nivea Lip Balm provides long-lasting moisture and protection for your lips.",
+        "color": "Transparent",
+        "Size": "4.8g"
+    },
+    {
+        "name": "Nivea Face Wash",
+        "image": [
+            "https://i.ibb.co/x1ntKP1/71-Urz-Qe12n-L-AC-SX425.jpg",
+            "https://i.ibb.co/7kYNpFG/416n-Tx-Ne-Ar-L-AC-SX425.jpg",
+            "https://i.ibb.co/d6rkN60/617-i-E5zj-DL-AC-SX425.jpg"
+        ],
+        "price": 12.75,
+        "isOnSell": false,
+        "sellPercentage": 0,
+        "quantity": {
+            "available": 70,
+            "sold": 30
+        },
+        "gender-based-category": "Unisex",
+        "category": "Cosmetics",
+        "subCategory": "Facial Cleanser",
+        "brand": "Nivea",
+        "vendor": "Vendor X",
+        "ratings": 4.7,
+        "review": [
+            {
+                "username": "User4",
+                "rating": 5,
+                "comment": "Refreshing and gentle on the skin."
+            }
+        ],
+        "description": "Nivea Face Wash effectively cleanses your skin, leaving it feeling fresh and clean.",
+        "color": "Blue",
+        "Size": "150ml"
+    },
+    {
+        "name": "Nivea Body Lotion",
+        "image": [
+            "https://i.ibb.co/803w5QT/61-Mqes-Z2-L-AC-SX569.jpg",
+            "https://i.ibb.co/T02hDrk/61oj-P8hw0-YL-AC-SX569.jpg",
+            "https://i.ibb.co/mG81kr7/71-SW3z-Uo-X2-L-AC-SX569.jpg"
+        ],
+        "price": 14.99,
+        "isOnSell": true,
+        "sellPercentage": 15,
+        "quantity": {
+            "available": 120,
+            "sold": 80
+        },
+        "gender-based-category": "Unisex",
+        "category": "Cosmetics",
+        "subCategory": "Lotion",
+        "brand": "Nivea",
+        "vendor": "Vendor X",
+        "ratings": 4.6,
+        "review": [
+            {
+                "username": "User5",
+                "rating": 4,
+                "comment": "Moisturizes deeply and smells amazing."
+            }
+        ],
+        "description": "Nivea Body Lotion provides long-lasting hydration and nourishment for your skin.",
+        "color": "White",
+        "Size": "400ml"
+    },
+    {
+        "name": "Nivea Sunscreen",
+        "image": [
+            "https://i.ibb.co/803w5QT/61-Mqes-Z2-L-AC-SX569.jpg",
+            "https://i.ibb.co/T02hDrk/61oj-P8hw0-YL-AC-SX569.jpg",
+            "https://i.ibb.co/mG81kr7/71-SW3z-Uo-X2-L-AC-SX569.jpg"
+        ],
+        "price": 18.25,
+        "isOnSell": false,
+        "sellPercentage": 0,
+        "quantity": {
+            "available": 40,
+            "sold": 10
+        },
+        "gender-based-category": "Unisex",
+        "category": "Cosmetics",
+        "subCategory": "Sun Care",
+        "brand": "Nivea",
+        "vendor": "Vendor X",
+        "ratings": 4.9,
+        "review": [
+            {
+                "username": "User6",
+                "rating": 5,
+                "comment": "Best sunscreen for all-day protection!"
+            }
+        ],
+        "description": "Nivea Sunscreen provides effective sun protection while keeping your skin moisturized.",
+        "color": "White",
+        "Size": "100ml"
+    },
+    {
+        "name": "Nivea Shampoo",
+        "image": [
+            "https://i.ibb.co/ns3QYw8/51-Dk-Wx-Fd-Nf-L-AC-SX569.jpg",
+            "https://i.ibb.co/9NnFLjn/61l-Jfn-OK7-L-AC-SY879.jpg",
+            "https://i.ibb.co/CWPfN7G/61-Fhs-Eg-Iby-L-AC-SX569.jpg"
+        ],
+        "price": 9.50,
+        "isOnSell": true,
+        "sellPercentage": 25,
+        "quantity": {
+            "available": 60,
+            "sold": 25
+        },
+        "gender-based-category": "Unisex",
+        "category": "Cosmetics",
+        "subCategory": "Hair Care",
+        "brand": "Nivea",
+        "vendor": "Vendor X",
+        "ratings": 4.4,
+        "review": [
+            {
+                "username": "User7",
+                "rating": 4,
+                "comment": "Leaves my hair feeling soft and shiny."
+            }
+        ],
+        "description": "Nivea Shampoo gently cleanses and nourishes your hair, promoting healthy locks.",
+        "color": "Transparent",
+        "Size": "400ml"
+    },
+    {
+        "name": "Garnier Micellar Water",
+        "image": [
+            "https://i.ibb.co/ns3QYw8/51-Dk-Wx-Fd-Nf-L-AC-SX569.jpg",
+            "https://i.ibb.co/9NnFLjn/61l-Jfn-OK7-L-AC-SY879.jpg",
+            "https://i.ibb.co/CWPfN7G/61-Fhs-Eg-Iby-L-AC-SX569.jpg"
+        ],
+        "price": 8.99,
+        "isOnSell": true,
+        "sellPercentage": 10,
+        "quantity": {
+            "available": 80,
+            "sold": 30
+        },
+        "gender-based-category": "Women",
+        "category": "Cosmetics",
+        "subCategory": "Makeup Remover",
+        "brand": "Garnier",
+        "vendor": "Vendor Y",
+        "ratings": 4.7,
+        "review": [
+            {
+                "username": "User8",
+                "rating": 5,
+                "comment": "Removes makeup easily, gentle on the skin."
+            }
+        ],
+        "description": "Garnier Micellar Water effectively cleanses and removes makeup, leaving the skin feeling refreshed.",
+        "color": "Transparent",
+        "Size": "250ml"
+    },
+    {
+        "name": "Garnier Moisturizer",
+        "image": [
+            "https://i.ibb.co/xMXJkv2/516v3a5q-UML-AC-SY879.jpg",
+            "https://i.ibb.co/xzG6M3h/814-I2w-Sg2-LL-AC-SY879.jpg",
+            "https://i.ibb.co/hW8JdS4/81rlh2-S8ig-L-AC-SX569.jpg"
+        ],
+        "price": 12.50,
+        "isOnSell": false,
+        "sellPercentage": 0,
+        "quantity": {
+            "available": 50,
+            "sold": 20
+        },
+        "gender-based-category": "Unisex",
+        "category": "Cosmetics",
+        "subCategory": "Moisturizer",
+        "brand": "Garnier",
+        "vendor": "Vendor Y",
+        "ratings": 4.5,
+        "review": [
+            {
+                "username": "User9",
+                "rating": 4,
+                "comment": "Keeps my skin hydrated all day!"
+            }
+        ],
+        "description": "Garnier Moisturizer provides deep hydration and nourishment for your skin.",
+        "color": "White",
+        "Size": "100ml"
+    },
+    {
+        "name": "Garnier Hair Serum",
+        "image": [
+            "https://i.ibb.co/PZvksgJ/61-La-Km-BHfd-L-AC-SX425.jpg",
+            "https://i.ibb.co/Wvjc4Y3/61-Xpmrpbrf-L-AC-SX425.jpg",
+            "https://i.ibb.co/7bzY73C/71w9-Sp-EQ6q-L-AC-SX425.jpg"
+        ],
+        "price": 7.25,
+        "isOnSell": true,
+        "sellPercentage": 15,
+        "quantity": {
+            "available": 70,
+            "sold": 40
+        },
+        "gender-based-category": "Unisex",
+        "category": "Cosmetics",
+        "subCategory": "Hair Care",
+        "brand": "Garnier",
+        "vendor": "Vendor Y",
+        "ratings": 4.3,
+        "review": [
+            {
+                "username": "User10",
+                "rating": 4,
+                "comment": "Smoothens frizzy hair, works like magic!"
+            }
+        ],
+        "description": "Garnier Hair Serum tames frizz and adds shine to your hair, leaving it looking sleek and polished.",
+        "color": "Transparent",
+        "Size": "100ml"
+    },
+    {
+        "name": "Garnier Face Wash",
+        "image": [
+            "https://i.ibb.co/QfY5vhn/51-Ac-OXDiwi-L-AC-SX679.jpg",
+            "https://i.ibb.co/94fJFf1/61-h4e3-Ee0-L-AC-SX679.jpg",
+            "https://i.ibb.co/Tb6Q7zr/61-D9y8-V0b3-L-AC-SX679.jpg"
+        ],
+        "price": 9.99,
+        "isOnSell": true,
+        "sellPercentage": 20,
+        "quantity": {
+            "available": 90,
+            "sold": 50
+        },
+        "gender-based-category": "Unisex",
+        "category": "Cosmetics",
+        "subCategory": "Facial Cleanser",
+        "brand": "Garnier",
+        "vendor": "Vendor Y",
+        "ratings": 4.6,
+        "review": [
+            {
+                "username": "User11",
+                "rating": 5,
+                "comment": "Refreshing and gentle on the skin."
+            }
+        ],
+        "description": "Garnier Face Wash deeply cleanses your skin, removing impurities and excess oil.",
+        "color": "Green",
+        "Size": "150ml"
+    },
+    {
+        "name": "Garnier Anti-Age Cream",
+        "image": [
+            "https://i.ibb.co/TqGgXZ7/51-FTa-E92es-L-AC-SX569.jpg",
+            "https://i.ibb.co/0tQbDbY/51g5-WPVW-CL-AC-SX569.jpg",
+            "https://i.ibb.co/YPZdxTp/51f-Hjgw-WBWL-AC-SX569.jpg"
+        ],
+        "price": 14.75,
+        "isOnSell": false,
+        "sellPercentage": 0,
+        "quantity": {
+            "available": 60,
+            "sold": 25
+        },
+        "gender-based-category": "Women",
+        "category": "Cosmetics",
+        "subCategory": "Cream",
+        "brand": "Garnier",
+        "vendor": "Vendor Y",
+        "ratings": 4.8,
+        "review": [
+            {
+                "username": "User12",
+                "rating": 5,
+                "comment": "My skin feels firmer and smoother after using this cream."
+            }
+        ],
+        "description": "Garnier Anti-Age Cream reduces the signs of aging, leaving your skin looking youthful and radiant.",
+        "color": "White",
+        "Size": "50ml"
+    },
+    {
+        "name": "Garnier Sunscreen Lotion",
+        "image": [
+            "https://i.ibb.co/3rNT8KQ/61hm-XFm-CH0-L-AC-SX425.jpg",
+            "https://i.ibb.co/CKgGndj/71-LRYKtc-L7-L-AC-SX425.jpg",
+            "https://i.ibb.co/2WSMV1y/81-OWS-KW49-L-AC-SX425.jpg"
+        ],
+        "price": 17.50,
+        "isOnSell": true,
+        "sellPercentage": 25,
+        "quantity": {
+            "available": 40,
+            "sold": 15
+        },
+        "gender-based-category": "Unisex",
+        "category": "Cosmetics",
+        "subCategory": "Sun Care",
+        "brand": "Garnier",
+        "vendor": "Vendor Y",
+        "ratings": 4.4,
+        "review": [
+            {
+                "username": "User13",
+                "rating": 4,
+                "comment": "Non-greasy and offers excellent sun protection."
+            }
+        ],
+        "description": "Garnier Sunscreen Lotion provides broad-spectrum protection against harmful UV rays.",
+        "color": "White",
+        "Size": "200ml"
+    },
+    {
+        "name": "Garnier Face Mask",
+        "image": [
+            "https://i.ibb.co/5FJ8JCR/71-PDe-YUKGDL-AC-SX569.jpg",
+            "https://i.ibb.co/wQBDNz0/7135m3-CNa0-L-AC-SX569.jpg",
+            "https://i.ibb.co/jf79MCD/718-By-UYb61-L-AC-SX569.jpg"
+        ],
+        "price": 6.99,
+        "isOnSell": false,
+        "sellPercentage": 0,
+        "quantity": {
+            "available": 100,
+            "sold": 60
+        },
+        "gender-based-category": "Unisex",
+        "category": "Cosmetics",
+        "subCategory": "Face Mask",
+        "brand": "Garnier",
+        "vendor": "Vendor Y",
+        "ratings": 4.2,
+        "review": [
+            {
+                "username": "User14",
+                "rating": 4,
+                "comment": "Leaves my skin feeling refreshed and hydrated."
+            }
+        ],
+        "description": "It also intensely moisturizes the skin making it feel soft, supple and nourished all day. It has UVA/UVB filters which protects the skin from harmful effects of the sun",
+        "color": "No color",
+        "Size": "200ml"
+    },
+    {
+        "name": "Neutrogena Cleansing Towelettes",
+        "image": [
+            "https://i.ibb.co/QCGxD6x/71-Jx-EFQIta-L-AC-SX679.jpg",
+            "https://i.ibb.co/DWfH9Wn/81db-P8-Gg-UNL-AC-SX679.jpg",
+            "https://i.ibb.co/zNrVsj0/71jn-v-E1-Ws-L-AC-SX679.jpg"
+        ],
+        "price": 9.99,
+        "isOnSell": true,
+        "sellPercentage": 10,
+        "quantity": {
+            "available": 80,
+            "sold": 30
+        },
+        "gender-based-category": "Unisex",
+        "category": "Cosmetics",
+        "subCategory": "Makeup Remover",
+        "brand": "Neutrogena",
+        "vendor": "Vendor Z",
+        "ratings": 4.7,
+        "review": [
+            {
+                "username": "User15",
+                "rating": 5,
+                "comment": "These towelettes work wonders, removing all my makeup effortlessly."
+            }
+        ],
+        "description": "Neutrogena Cleansing Towelettes effectively remove makeup and impurities without leaving a greasy residue.",
+        "color": "White",
+        "Size": "25 wipes"
+    },
+    {
+        "name": "Neutrogena Hydro Boost Gel",
+        "image": [
+            "https://i.ibb.co/k0pxYFk/618-Gmf-E87u-L-AC-SX569.jpg",
+            "https://i.ibb.co/yVbLjqp/71jh-Gzou-FTL-AC-SX569.jpg",
+            "https://i.ibb.co/2ZjLzFH/71q-C7p-Cxm1-L-AC-SX569.jpg"
+        ],
+        "price": 16.50,
+        "isOnSell": false,
+        "sellPercentage": 0,
+        "quantity": {
+            "available": 50,
+            "sold": 20
+        },
+        "gender-based-category": "Unisex",
+        "category": "Cosmetics",
+        "subCategory": "Moisturizer",
+        "brand": "Neutrogena",
+        "vendor": "Vendor Z",
+        "ratings": 4.5,
+        "review": [
+            {
+                "username": "User16",
+                "rating": 4,
+                "comment": "Hydrates my skin perfectly, and it's so lightweight."
+            }
+        ],
+        "description": "Neutrogena Hydro Boost Gel provides intense hydration, leaving your skin supple and radiant.",
+        "color": "Blue",
+        "Size": "50ml"
+    },
+    {
+        "name": "Neutrogena Oil-Free Acne Wash",
+        "image": [
+            "https://i.ibb.co/j5rJ8Gw/71vflkjn-Q8-L-AC-SX679.jpg",
+            "https://i.ibb.co/kKW1qPN/71-MWIH4-Ebf-L-AC-SX679.jpg",
+            "https://i.ibb.co/MMMK7v4/81-LE6h3-Von-L-AC-SX679.jpg"
+        ],
+        "price": 12.75,
+        "isOnSell": true,
+        "sellPercentage": 15,
+        "quantity": {
+            "available": 70,
+            "sold": 40
+        },
+        "gender-based-category": "Unisex",
+        "category": "Cosmetics",
+        "subCategory": "Facial Cleanser",
+        "brand": "Neutrogena",
+        "vendor": "Vendor Z",
+        "ratings": 4.3,
+        "review": [
+            {
+                "username": "User17",
+                "rating": 4,
+                "comment": "My go-to cleanser for acne-prone skin. Works like magic!"
+            }
+        ],
+        "description": "Neutrogena Oil-Free Acne Wash effectively clears acne and prevents future breakouts.",
+        "color": "Orange",
+        "Size": "150ml"
+    },
+    {
+        "name": "Neutrogena Norwegian Formula Hand Cream",
+        "image": [
+            "https://i.ibb.co/GsSWpyN/61-Q0-U51-AIRL-AC-SX425-PIbundle-3-Top-Right-0-0-SH20.jpg",
+            "https://i.ibb.co/yXjQZLs/41u-Ebehb-L-AC-SX425.jpg",
+            "https://i.ibb.co/Bjxbc81/41l-Z6-TLJQL-AC-SX425.jpg"
+        ],
+        "price": 6.99,
+        "isOnSell": false,
+        "sellPercentage": 0,
+        "quantity": {
+            "available": 100,
+            "sold": 60
+        },
+        "gender-based-category": "Unisex",
+        "category": "Cosmetics",
+        "subCategory": "Hand Care",
+        "brand": "Neutrogena",
+        "vendor": "Vendor Z",
+        "ratings": 4.2,
+        "review": [
+            {
+                "username": "User18",
+                "rating": 4,
+                "comment": "Leaves my hands soft and moisturized, especially during winter."
+            }
+        ],
+        "description": "Neutrogena Norwegian Formula Hand Cream provides immediate relief and lasting protection for dry, chapped hands.",
+        "color": "White",
+        "Size": "75ml"
+    },
+    {
+        "name": "Neutrogena Ultra Sheer Dry-Touch Sunscreen",
+        "image": [
+            "https://i.ibb.co/rHN90rV/61uzqp-WS4g-L-SX466.jpg",
+            "https://i.ibb.co/WfQg72S/71-Adz6q-R2x-L-SX466.jpg",
+            "https://i.ibb.co/hKsvwQy/913-Ff-Okdz-L-SX466.jpg"
+        ],
+        "price": 14.75,
+        "isOnSell": true,
+        "sellPercentage": 20,
+        "quantity": {
+            "available": 90,
+            "sold": 50
+        },
+        "gender-based-category": "Unisex",
+        "category": "Cosmetics",
+        "subCategory": "Sun Care",
+        "brand": "Neutrogena",
+        "vendor": "Vendor Z",
+        "ratings": 4.6,
+        "review": [
+            {
+                "username": "User19",
+                "rating": 5,
+                "comment": "One of the best sunscreens I've used, non-greasy and provides excellent protection."
+            }
+        ],
+        "description": "Neutrogena Ultra Sheer Dry-Touch Sunscreen offers broad-spectrum protection with a lightweight, non-shiny finish.",
+        "color": "White",
+        "Size": "100ml"
+    },
+    {
+        "name": "Neutrogena Deep Clean Purifying Clay Mask",
+        "image": [
+            "https://i.ibb.co/G36C78C/719h-T2o-Kjv-S-AC-SX569.jpg",
+            "https://i.ibb.co/Yt0G2LX/817yqx2-RZPS-AC-SX569.jpg",
+            "https://i.ibb.co/Q8dZCjD/71-DSAg-Zwar-L-AC-SX569.jpg"
+        ],
+        "price": 7.99,
+        "isOnSell": false,
+        "sellPercentage": 0,
+        "quantity": {
+            "available": 120,
+            "sold": 80
+        },
+        "gender-based-category": "Unisex",
+        "category": "Cosmetics",
+        "subCategory": "Face Mask",
+        "brand": "Neutrogena",
+        "vendor": "Vendor Z",
+        "ratings": 4.4,
+        "review": [
+            {
+                "username": "User20",
+                "rating": 4,
+                "comment": "Leaves my skin feeling refreshed and purified after use."
+            }
+        ],
+        "description": "Neutrogena Deep Clean Purifying Clay Mask detoxifies and purifies your skin, minimizing pores and leaving a radiant complexion.",
+        "color": "Green",
+        "Size": "100g"
+    },
+    {
+        "name": "Neutrogena Rapid Wrinkle Repair",
+        "image": [
+            "https://i.ibb.co/Ksnsqr4/41.jpg",
+            "https://i.ibb.co/ZhWgVFt/11.jpg"
+        ],
+        "price": 19.99,
+        "isOnSell": true,
+        "sellPercentage": 10,
+        "quantity": {
+            "available": 50,
+            "sold": 20
+        },
+        "gender-based-category": "Women",
+        "category": "Cosmetics",
+        "subCategory": "Anti-Aging Cream",
+        "brand": "Neutrogena",
+        "vendor": "Vendor Z",
+        "ratings": 4.8,
+        "review": [
+            {
+                "username": "User21",
+                "rating": 5,
+                "comment": "This cream really helps in reducing fine lines and wrinkles. Love it!"
+            }
+        ],
+        "description": "Neutrogena Rapid Wrinkle Repair visibly reduces wrinkles and helps to fade dark spots for a more youthful appearance.",
+        "color": "White",
+        "Size": "30ml"
+    },
+    {
+        "name": "Neutrogena Makeup Remover Cleansing Oil",
+        "image": [
+            "https://i.ibb.co/LZRyBS6/5.webp",
+            "https://i.ibb.co/bb8j1Ht/6.webp"
+        ],
+        "price": 13.50,
+        "isOnSell": false,
+        "sellPercentage": 0,
+        "quantity": {
+            "available": 40,
+            "sold": 15
+        },
+        "gender-based-category": "Unisex",
+        "category": "Cosmetics",
+        "subCategory": "Makeup Remover",
+        "brand": "Neutrogena",
+        "vendor": "Vendor Z",
+        "ratings": 4.6,
+        "review": [
+            {
+                "username": "User22",
+                "rating": 4,
+                "comment": "This cleansing oil melts away makeup effortlessly. Highly recommended!"
+            }
+        ],
+        "description": "Neutrogena Makeup Remover Cleansing Oil effectively removes makeup and impurities without clogging pores.",
+        "color": "Transparent",
+        "Size": "150ml"
+    },
+    {
+        "name": "Neutrogena Oil-Free Moisturizer",
+        "image": [
+            "https://i.ibb.co/vhwYJYV/s-l1600.jpg",
+            "https://i.ibb.co/yPqw0Xj/s-l500.jpg"
+        ],
+        "price": 11.99,
+        "isOnSell": true,
+        "sellPercentage": 15,
+        "quantity": {
+            "available": 70,
+            "sold": 30
+        },
+        "gender-based-category": "Unisex",
+        "category": "Cosmetics",
+        "subCategory": "Moisturizer",
+        "brand": "Neutrogena",
+        "vendor": "Vendor Z",
+        "ratings": 4.5,
+        "review": [
+            {
+                "username": "User23",
+                "rating": 4,
+                "comment": "A lightweight and non-greasy moisturizer, perfect for daily use."
+            }
+        ],
+        "description": "Neutrogena Oil-Free Moisturizer provides long-lasting hydration without clogging pores, suitable for oily and acne-prone skin.",
+        "color": "White",
+        "Size": "100ml"
+    },
+    {
+        "name": "Neutrogena Hydro Boost Water Gel Sunscreen",
+        "image": [
+            "https://i.ibb.co/VxDDGf6/618-Gmf-E87u-L-AC-SX300-SY300-QL70-ML2.jpg",
+            "https://i.ibb.co/yVbLjqp/71jh-Gzou-FTL-AC-SX569.jpg",
+            "https://i.ibb.co/2ZjLzFH/71q-C7p-Cxm1-L-AC-SX569.jpg"
+        ],
+        "price": 15.75,
+        "isOnSell": true,
+        "sellPercentage": 20,
+        "quantity": {
+            "available": 90,
+            "sold": 40
+        },
+        "gender-based-category": "Unisex",
+        "category": "Cosmetics",
+        "subCategory": "Sun Care",
+        "brand": "Neutrogena",
+        "vendor": "Vendor Z",
+        "ratings": 4.4,
+        "review": [
+            {
+                "username": "User24",
+                "rating": 4,
+                "comment": "This sunscreen is super lightweight and leaves no white cast. Great for daily wear."
+            }
+        ],
+        "description": "Neutrogena Hydro Boost Water Gel Sunscreen offers sun protection with a refreshing water-light feel.",
+        "color": "White",
+        "Size": "75ml"
+    },
+    {
+        "name": "Neutrogena Deep Clean Facial Cleanser",
+        "image": [
+            "https://i.ibb.co/FbYSxK5/610-UFz-YQk-IL-AC-SX569.jpg",
+            "https://i.ibb.co/VQpt42W/81re-X2-SQs-GL-AC-SX569.jpg",
+            "https://i.ibb.co/bNpNS7B/71-NHg8f4-MOL-AC-SX569.jpg"
+        ],
+        "price": 9.50,
+        "isOnSell": false,
+        "sellPercentage": 0,
+        "quantity": {
+            "available": 60,
+            "sold": 25
+        },
+        "gender-based-category": "Unisex",
+        "category": "Cosmetics",
+        "subCategory": "Facial Cleanser",
+        "brand": "Neutrogena",
+        "vendor": "Vendor Z",
+        "ratings": 4.3,
+        "review": [
+            {
+                "username": "User25",
+                "rating": 4,
+                "comment": "Leaves my skin feeling deeply cleansed and refreshed."
+            }
+        ],
+        "description": "Neutrogena Deep Clean Facial Cleanser cleans deep down into pores, effectively removing dirt, oil, and makeup.",
+        "color": "Blue",
+        "Size": "200ml"
+    },
+    {
+        "name": "Neutrogena Hydrating Eye Cream",
+        "image": [
+            "https://i.ibb.co/Zx2dzrh/81q-ahkz8o-L-AC-SX569.jpg",
+            "https://i.ibb.co/VSD7NnT/81-IPSz-WKR8-L-AC-SX569.jpg",
+            "https://i.ibb.co/PNX38xY/51-AOXt8hxz-L-AC-SX569.jpg"
+        ],
+        "price": 13.99,
+        "isOnSell": true,
+        "sellPercentage": 25,
+        "quantity": {
+            "available": 40,
+            "sold": 15
+        },
+        "gender-based-category": "Unisex",
+        "category": "Cosmetics",
+        "subCategory": "Eye Cream",
+        "brand": "Neutrogena",
+        "vendor": "Vendor Z",
+        "ratings": 4.6,
+        "review": [
+            {
+                "username": "User26",
+                "rating": 5,
+                "comment": "This eye cream is a lifesaver, it keeps my under-eye area moisturized and reduces puffiness."
+            }
+        ],
+        "description": "Neutrogena Hydrating Eye Cream helps diminish the appearance of fine lines and puffiness around the eyes.",
+        "color": "White",
+        "Size": "15ml"
+    },
+    {
+        "name": "Ponds Cold Cream",
+        "image": [
+            "https://i.ibb.co/gmn241p/61-WTX1h2-Mx-S-SX466.jpg",
+            "https://i.ibb.co/Q6cwvk7/61-VOYh0nn0-L-SX466.jpg",
+            "https://i.ibb.co/G7J0YSp/61ccc-Rh0ku-L-SX466.jpg"
+        ],
+        "price": 7.99,
+        "isOnSell": true,
+        "sellPercentage": 10,
+        "quantity": {
+            "available": 60,
+            "sold": 25
+        },
+        "gender-based-category": "Women",
+        "category": "Cosmetics",
+        "subCategory": "Cream",
+        "brand": "Ponds",
+        "vendor": "Vendor P",
+        "ratings": 4.5,
+        "review": [
+            {
+                "username": "User27",
+                "rating": 4,
+                "comment": "This cold cream is a classic! It works wonders on my dry skin."
+            }
+        ],
+        "description": "Ponds Cold Cream is a rich, nourishing cream that moisturizes and softens dry skin.",
+        "color": "White",
+        "Size": "100ml"
+    },
+    {
+        "name": "Ponds BB Cream",
+        "image": [
+            "https://i.ibb.co/gPphTCZ/71vg-YWx-kw-S-AC-SX569.jpg",
+            "https://i.ibb.co/NsRtPPH/7190cr-HX1-PL-AC-SX569.jpg",
+            "https://i.ibb.co/fDTFdBz/61t-UO8-Ja-YL-AC-SX569.jpg"
+        ],
+        "price": 9.50,
+        "isOnSell": false,
+        "sellPercentage": 0,
+        "quantity": {
+            "available": 80,
+            "sold": 40
+        },
+        "gender-based-category": "Women",
+        "category": "Cosmetics",
+        "subCategory": "BB Cream",
+        "brand": "Ponds",
+        "vendor": "Vendor P",
+        "ratings": 4.2,
+        "review": [
+            {
+                "username": "User28",
+                "rating": 4,
+                "comment": "Gives light coverage and evens out my skin tone. Perfect for daily wear!"
+            }
+        ],
+        "description": "Ponds BB Cream provides natural coverage, moisturizes, and protects your skin with SPF.",
+        "color": "Beige",
+        "Size": "50g"
+    },
+    {
+        "name": "Ponds Age Miracle Serum",
+        "image": [
+            "https://i.ibb.co/sC348d3/517e1-VNv-NUL-AC-SX569.jpg",
+            "https://i.ibb.co/8MMh6MH/51-IYx-GNips-L-AC-SX569.jpg",
+            "https://i.ibb.co/4NWWyfb/61p-GOQ8-Yi-TL-AC-SX569.jpg"
+        ],
+        "price": 19.99,
+        "isOnSell": true,
+        "sellPercentage": 15,
+        "quantity": {
+            "available": 90,
+            "sold": 50
+        },
+        "gender-based-category": "Women",
+        "category": "Cosmetics",
+        "subCategory": "Anti-Aging Serum",
+        "brand": "Ponds",
+        "vendor": "Vendor P",
+        "ratings": 4.8,
+        "review": [
+            {
+                "username": "User29",
+                "rating": 5,
+                "comment": "This serum has visibly reduced my fine lines and improved my skin's texture."
+            }
+        ],
+        "description": "Ponds Age Miracle Serum targets signs of aging, leaving your skin looking radiant and youthful.",
+        "color": "White",
+        "Size": "30ml"
+    },
+    {
+        "name": "Ponds White Beauty BB+ Cream",
+        "image": [
+            "https://i.ibb.co/nnXYwcq/713-Jvc-Y-UL-AC-SX569-PIbundle-3-Top-Right-0-0-SH20.jpg",
+            "https://i.ibb.co/nnXYwcq/713-Jvc-Y-UL-AC-SX569-PIbundle-3-Top-Right-0-0-SH20.jpg"
+        ],
+        "price": 9.99,
+        "isOnSell": true,
+        "sellPercentage": 15,
+        "quantity": {
+            "available": 70,
+            "sold": 40
+        },
+        "gender-based-category": "Women",
+        "category": "Cosmetics",
+        "subCategory": "BB Cream",
+        "brand": "Ponds",
+        "vendor": "Vendor P",
+        "ratings": 4.3,
+        "review": [
+            {
+                "username": "User29",
+                "rating": 4,
+                "comment": "This BB cream provides excellent coverage and evens out my skin tone."
+            }
+        ],
+        "description": "Ponds White Beauty BB+ Cream is a multi-tasking beauty balm that offers sheer coverage, sun protection, and skin brightening benefits.",
+        "color": "Beige",
+        "Size": "25g"
+    },
+    {
+        "name": "Ponds Pure Detox Facial Foam",
+        "image": [
+            "https://i.ibb.co/smN0ctg/z-X7-H4-V8kd-I-800x.webp",
+            "https://i.ibb.co/smN0ctg/z-X7-H4-V8kd-I-800x.webp"
+        ],
+        "price": 7.25,
+        "isOnSell": false,
+        "sellPercentage": 0,
+        "quantity": {
+            "available": 100,
+            "sold": 60
+        },
+        "gender-based-category": "Unisex",
+        "category": "Cosmetics",
+        "subCategory": "Facial Cleanser",
+        "brand": "Ponds",
+        "vendor": "Vendor P",
+        "ratings": 4.2,
+        "review": [
+            {
+                "username": "User30",
+                "rating": 4,
+                "comment": "My skin feels clean and fresh after using this facial foam."
+            }
+        ],
+        "description": "Ponds Pure Detox Facial Foam effectively cleanses and removes impurities, leaving your skin detoxified and revitalized.",
+        "color": "Blue",
+        "Size": "100g"
+    },
+    {
+        "name": "Ponds Light Moisturizer",
+        "image": [
+            "https://i.ibb.co/khqBV2c/61-Csbe-Nr4d-S-AC-SX569.jpg",
+            "https://i.ibb.co/92FZTjq/71dp8t-HK24-L-AC-SX569.jpg"
+        ],
+        "price": 6.99,
+        "isOnSell": true,
+        "sellPercentage": 20,
+        "quantity": {
+            "available": 90,
+            "sold": 50
+        },
+        "gender-based-category": "Unisex",
+        "category": "Cosmetics",
+        "subCategory": "Moisturizer",
+        "brand": "Ponds",
+        "vendor": "Vendor P",
+        "ratings": 4.6,
+        "review": [
+            {
+                "username": "User31",
+                "rating": 5,
+                "comment": "My skin feels clean and fresh after using this facial foam."
+            }
+        ],
+        "description": "Ponds Light Moisturizer effectively removes impurities, leaving your skin detoxified and revitalized.",
+        "color": "Blue",
+        "Size": "100g"
+    },
+    {
+        "name": "Maybelline Fit Me Foundation",
+        "image": [
+            "https://i.ibb.co/8xxV35K/7175-JGLOmu-S-AC-SX569.jpg",
+            "https://i.ibb.co/hRykD5T/61nnvi2y-MWL-AC-SX569.jpg",
+            "https://i.ibb.co/xMQv4b3/61-Zc-Mpo-Ly2-L-AC-SX569.jpg"
+        ],
+        "price": 12.99,
+        "isOnSell": true,
+        "sellPercentage": 10,
+        "quantity": {
+            "available": 80,
+            "sold": 30
+        },
+        "gender-based-category": "Women",
+        "category": "Makeup",
+        "subCategory": "Foundation",
+        "brand": "Maybelline",
+        "vendor": "Vendor M",
+        "ratings": 4.7,
+        "review": [
+            {
+                "username": "User32",
+                "rating": 5,
+                "comment": "This foundation matches my skin tone perfectly and provides great coverage."
+            }
+        ],
+        "description": "Maybelline Fit Me Foundation blends seamlessly into the skin, providing a natural and flawless finish.",
+        "color": "Various shades available",
+        "Size": "30ml"
+    },
+    {
+        "name": "L'Oreal Paris Voluminous Mascara",
+        "image": [
+            "https://i.ibb.co/4S76wQ9/61-6-Qm-Am-Ww-L-AC-SX679.jpg",
+            "https://i.ibb.co/34ZrbFM/61-Xvxtd2-YL-AC-SX679.jpg",
+            "https://i.ibb.co/5Lv900Q/71ltdajug9-L-AC-SX679.jpg"
+        ],
+        "price": 9.75,
+        "isOnSell": false,
+        "sellPercentage": 0,
+        "quantity": {
+            "available": 50,
+            "sold": 20
+        },
+        "gender-based-category": "Women",
+        "category": "Cosmetics",
+        "subCategory": "Mascara",
+        "brand": "L'Oreal Paris",
+        "vendor": "Vendor L",
+        "ratings": 4.5,
+        "review": [
+            {
+                "username": "User33",
+                "rating": 4,
+                "comment": "This mascara adds volume to my lashes and stays put all day."
+            }
+        ],
+        "description": "L'Oreal Paris Voluminous Mascara creates a full-bodied, voluminous look with a clump-resistant formula.",
+        "color": "Black",
+        "Size": "8ml"
+    },
+    {
+        "name": "Revlon ColorStay Liquid Eyeliner",
+        "image": [
+            "https://i.ibb.co/bvpK99x/71-XZd-ETDYb-L-AC-SX425.jpg",
+            "https://i.ibb.co/hsB4748/91u-FGSb-C7z-L-AC-SX425.jpg",
+            "https://i.ibb.co/m004TzN/71q-HH7-GL3p-L-AC-SX425.jpg"
+        ],
+        "price": 8.99,
+        "isOnSell": true,
+        "sellPercentage": 15,
+        "quantity": {
+            "available": 70,
+            "sold": 40
+        },
+        "gender-based-category": "Women",
+        "category": "Cosmetics",
+        "subCategory": "Eyeliner",
+        "brand": "Revlon",
+        "vendor": "Vendor R",
+        "ratings": 4.3,
+        "review": [
+            {
+                "username": "User34",
+                "rating": 4,
+                "comment": "This eyeliner is easy to apply and lasts all day without smudging."
+            }
+        ],
+        "description": "Revlon ColorStay Liquid Eyeliner creates precise lines that are long-lasting and smudge-proof.",
+        "color": "Black",
+        "Size": "2.5ml"
+    },
+    {
+        "name": "NYX Professional Makeup Soft Matte Lip Cream",
+        "image": [
+            "https://i.ibb.co/T01Kx2Z/61wew-Bsg-P2-S-AC-SX569.jpg",
+            "https://i.ibb.co/PTsQTcZ/71-H9s-UVPr-ZS-AC-SX569.jpg",
+            "https://i.ibb.co/sPdv6fg/71rdufa2-Jm-S-AC-SX569.jpg"
+        ],
+        "price": 7.50,
+        "isOnSell": false,
+        "sellPercentage": 0,
+        "quantity": {
+            "available": 100,
+            "sold": 60
+        },
+        "gender-based-category": "Women",
+        "category": "Cosmetics",
+        "subCategory": "Lipstick",
+        "brand": "NYX Professional Makeup",
+        "vendor": "Vendor N",
+        "ratings": 4.2,
+        "review": [
+            {
+                "username": "User35",
+                "rating": 4,
+                "comment": "Love the soft matte finish, and the color is so beautiful!"
+            }
+        ],
+        "description": "NYX Professional Makeup Soft Matte Lip Cream offers stunning matte color with a creamy, lightweight feel.",
+        "color": "Various shades available",
+        "Size": "8ml"
+    },
+    {
+        "name": "Urban Decay Naked Eyeshadow Palette",
+        "image": [
+            "https://i.ibb.co/5B0732B/12853863-1004835546833935.webp",
+            "https://i.ibb.co/vYqLHX9/12853863-1254835546758356.webp",
+            "https://i.ibb.co/TkcJk3b/12853863-2674844590091289.webp"
+        ],
+        "price": 54.99,
+        "isOnSell": true,
+        "sellPercentage": 20,
+        "quantity": {
+            "available": 90,
+            "sold": 50
+        },
+        "gender-based-category": "Women",
+        "category": "Cosmetics",
+        "subCategory": "Eyeshadow",
+        "brand": "Urban Decay",
+        "vendor": "Vendor U",
+        "ratings": 4.6,
+        "review": [
+            {
+                "username": "User36",
+                "rating": 5,
+                "comment": "This palette has a great selection of shades, and they blend beautifully."
+            }
+        ],
+        "description": "Urban Decay Naked Eyeshadow Palette features versatile shades for creating stunning eye looks.",
+        "color": "Various shades available",
+        "Size": "12 colors"
+    },
+    {
+        "name": "Anastasia Beverly Hills Brow Wiz",
+        "image": [
+            "https://i.ibb.co/VW0GnqY/51-LN-43-A6-L-AC-SX679.jpg",
+            "https://i.ibb.co/YWrZc1X/71n-XJG1umm-L-AC-SX679.jpg"
+        ],
+        "price": 21.50,
+        "isOnSell": false,
+        "sellPercentage": 0,
+        "quantity": {
+            "available": 120,
+            "sold": 80
+        },
+        "gender-based-category": "Women",
+        "category": "Cosmetics",
+        "subCategory": "Make Up",
+        "Subcategory-under": "Eyebrow Pencil",
+        "brand": "Anastasia Beverly Hills",
+        "vendor": "Vendor A",
+        "ratings": 4.4,
+        "review": [
+            {
+                "username": "User37",
+                "rating": 4,
+                "comment": "This eyebrow pencil creates natural-looking brows, and the spoolie is handy."
+            }
+        ],
+        "description": "Anastasia Beverly Hills Brow Wiz is an ultra-slim, retractable eyebrow pencil for precise and natural-looking brows.",
+        "color": "Various shades available",
+        "Size": "0.08g"
+    },
+    {
+        "name": "Fenty Beauty Pro Filt'r Soft Matte Foundation",
+        "image": [
+            "https://i.ibb.co/t84mvKg/418m-M7zu-FEL-AC-SX569-PIbundle-130-Top-Right-0-0-SH20.jpg",
+            "https://i.ibb.co/CBQ6sdw/613-DTrd-Od-LL-AC-SX569.jpg"
+        ],
+        "price": 29.99,
+        "isOnSell": true,
+        "sellPercentage": 10,
+        "quantity": {
+            "available": 80,
+            "sold": 30
+        },
+        "gender-based-category": "Women",
+        "category": "Cosmetics",
+        "subCategory": "Makeup",
+        "SubcategoryType": "Foundation",
+        "brand": "Fenty Beauty",
+        "vendor": "Vendor F",
+        "ratings": 4.8,
+        "review": [
+            {
+                "username": "User38",
+                "rating": 5,
+                "comment": "This foundation provides excellent coverage and lasts all day without becoming cakey."
+            }
+        ],
+        "description": "Fenty Beauty Pro Filt'r Soft Matte Foundation offers a long-wear, buildable coverage with a soft matte finish.",
+        "color": "Various shades available",
+        "Size": "32ml"
+    },
+    {
+        "name": "Estée Lauder Double Wear Stay-in-Place Foundation",
+        "image": [
+            "estee_lauder_foundation.png",
+            "estee_lauder_foundation2.png"
+        ],
+        "price": 42.50,
+        "isOnSell": false,
+        "sellPercentage": 0,
+        "quantity": {
+            "available": 50,
+            "sold": 20
+        },
+        "gender-based-category": "Women",
+        "category": "Cosmetics",
+        "subCategory": "Makeup",
+        "SubcategoryType": "Foundation",
+        "brand": "Estée Lauder",
+        "vendor": "Vendor E",
+        "ratings": 4.6,
+        "review": [
+            {
+                "username": "User39",
+                "rating": 4,
+                "comment": "This foundation stays on all day, even in hot and humid weather. Love it!"
+            }
+        ],
+        "description": "Estée Lauder Double Wear Stay-in-Place Foundation provides flawless, long-lasting coverage with a natural-looking finish.",
+        "color": "Various shades available",
+        "Size": "30ml"
+    },
+    {
+        "name": "Make Up For Ever Ultra HD Foundation",
+        "image": [
+            "makeup_for_ever_foundation.png",
+            "makeup_for_ever_foundation2.png"
+        ],
+        "price": 38.75,
+        "isOnSell": true,
+        "sellPercentage": 15,
+        "quantity": {
+            "available": 70,
+            "sold": 40
+        },
+        "gender-based-category": "Unisex",
+        "category": "Cosmetics",
+        "subCategory": "Makeup",
+        "SubcategoryType": "Foundation",
+        "brand": "Make Up For Ever",
+        "vendor": "Vendor M",
+        "ratings": 4.3,
+        "review": [
+            {
+                "username": "User40",
+                "rating": 4,
+                "comment": "This foundation looks flawless on camera and in person. Highly recommend!"
+            }
+        ],
+        "description": "Make Up For Ever Ultra HD Foundation provides invisible, comfortable coverage for a natural and radiant complexion.",
+        "color": "Various shades available",
+        "Size": "30ml"
+    },
+    {
+        "name": "Too Faced Born This Way Foundation",
+        "image": [
+            "too_faced_born_this_way_foundation.png",
+            "too_faced_born_this_way_foundation2.png"
+        ],
+        "price": 34.99,
+        "isOnSell": false,
+        "sellPercentage": 0,
+        "quantity": {
+            "available": 100,
+            "sold": 60
+        },
+        "gender-based-category": "Women",
+        "category": "Cosmetics",
+        "subCategory": "Makeup",
+        "SubcategoryType": "Foundation",
+        "brand": "Too Faced",
+        "vendor": "Vendor T",
+        "ratings": 4.2,
+        "review": [
+            {
+                "username": "User41",
+                "rating": 4,
+                "comment": "This foundation has a beautiful finish and makes my skin look flawless."
+            }
+        ],
+        "description": "Too Faced Born This Way Foundation offers medium-to-full, undetectable coverage for a natural, radiant complexion.",
+        "color": "Various shades available",
+        "Size": "30ml"
+    },
+    {
+        "name": "NARS Sheer Glow Foundation",
+        "image": [
+            "nars_sheer_glow_foundation.png",
+            "nars_sheer_glow_foundation2.png"
+        ],
+        "price": 40.50,
+        "isOnSell": true,
+        "sellPercentage": 20,
+        "quantity": {
+            "available": 90,
+            "sold": 50
+        },
+        "gender-based-category": "Women",
+        "category": "Cosmetics",
+        "subCategory": "Makeup",
+        "SubcategoryType": "Foundation",
+        "brand": "NARS",
+        "vendor": "Vendor N",
+        "ratings": 4.6,
+        "review": [
+            {
+                "username": "User42",
+                "rating": 5,
+                "comment": "This foundation gives my skin a beautiful glow and doesn't feel heavy."
+            }
+        ],
+        "description": "NARS Sheer Glow Foundation provides a natural, buildable coverage with a radiant and luminous finish.",
+        "color": "Various shades available",
+        "Size": "30ml"
+    },
+    {
+        "name": "Clinique Even Better Makeup SPF 15",
+        "image": [
+            "clinique_even_better_makeup.png",
+            "clinique_even_better_makeup2.png"
+        ],
+        "price": 28.99,
+        "isOnSell": true,
+        "sellPercentage": 25,
+        "quantity": {
+            "available": 40,
+            "sold": 15
+        },
+        "gender-based-category": "Women",
+        "category": "Cosmetics",
+        "subCategory": "Makeup",
+        "SubcategoryType": "Foundation",
+        "brand": "Clinique",
+        "vendor": "Vendor C",
+        "ratings": 4.5,
+        "review": [
+            {
+                "username": "User43",
+                "rating": 5,
+                "comment": "This foundation evens out my skin tone and feels lightweight. Great for daily wear."
+            }
+        ],
+        "description": "Clinique Even Better Makeup SPF 15 provides natural-looking coverage and helps improve the appearance of dark spots over time.",
+        "color": "Various shades available",
+        "Size": "30ml"
+    }
+]

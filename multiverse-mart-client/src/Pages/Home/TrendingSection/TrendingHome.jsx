@@ -15,13 +15,13 @@ const TrendingHome = () => {
     }, [])
     const colStyle = [
         'col-span-1 bg-blue-100',
-        'col-span-2 bg-blue-50',
-        'col-span-1 bg-blue-50',
-        'col-span-2 bg-blue-100',
+        'col-span-2 bg-blue-50 flex p-3',
+        'col-span-1 bg-blue-100',
+        'col-span-2 bg-blue-100 flex p-3',
         'col-span-1 bg-blue-100',
         'col-span-1 bg-blue-50',
-        'col-span-2 bg-blue-50',
-        'col-span-2 bg-blue-100',
+        'col-span-2 bg-blue-50 flex p-3',
+        'col-span-2 bg-blue-100 flex p-3',
     ]
     console.log(shops)
     return (
@@ -31,9 +31,9 @@ const TrendingHome = () => {
                 {
                     // signle card show
 
-                    shops?.slice(0, 8).map((shop, i) => <div key={i} className={`${colStyle[i]} shadow-lg md:h-[500px]`}>
+                    shops?.slice(0, 8).map((shop, i) => <div key={i} className={`${colStyle[i]} shadow-lg md:h-[450px]`}>
 
-                        <img src={shop.Image} alt="" className='w-full h-2/3'/>
+                        <img src={shop.Image} alt="" className='w-[300px] h-[300px]'/>
                         <div className='md:p-5 text-center'>
                             <h2 className='font-bold'>{shop.Name}</h2>
                             <p>Price: ${shop.Price}</p>
