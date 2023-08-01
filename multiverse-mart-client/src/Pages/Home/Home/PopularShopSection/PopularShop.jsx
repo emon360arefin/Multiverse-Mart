@@ -15,9 +15,9 @@ const PopularShop = () => {
             })
     }, [])
     // data filtering for specific category
-    const handleGadget = (cat) =>{
-            const shopsGadgets = shops.filter(shop => shop.Brand == cat);
-            setShop(shopsGadgets)
+    const handleGadget = (cat) => {
+        const shopsGadgets = shops.filter(shop => shop.Brand == cat);
+        setShop(shopsGadgets)
     }
     return (
         <div>
@@ -33,10 +33,10 @@ const PopularShop = () => {
                         </div>)
                     }
                 </div>
-                <div className='md:flex md:justify-evenly space-y-2'>
-                    <button onClick={()=>handleGadget('Microsoft')} className='bg-gradient-to-r from-blue-600 to-blue-100 text-white text-xl  font-montserrat font-semibold p-3 px-6'> Popular For Gadget  </button>
-                    <button onClick={()=>handleGadget('Acer')} className='bg-gradient-to-r from-blue-600 to-blue-100 text-white text-xl  font-montserrat font-semibold p-3 px-6'> Popular For Cosmetics </button>
-                     <button onClick={()=>handleGadget('HP')} className='bg-gradient-to-r from-blue-600 to-blue-100 text-white text-xl  font-montserrat font-semibold p-3 px-6'> Popular For Clothing </button>               
+                <div className='md:flex md:justify-evenly space-y-2 md:space-y-0'>
+                    <button onClick={() => handleGadget('Microsoft')} className='bg-gradient-to-r from-blue-600 to-blue-100 text-white text-xl  font-montserrat font-semibold p-3 px-6'> Popular For Gadget  </button>
+                    <button onClick={() => handleGadget('Acer')} className='bg-gradient-to-r from-blue-600 to-blue-100 text-white text-xl  font-montserrat font-semibold p-3 px-6'> Popular For Cosmetics </button>
+                    <button onClick={() => handleGadget('HP')} className='bg-gradient-to-r from-blue-600 to-blue-100 text-white text-xl  font-montserrat font-semibold p-3 px-6'> Popular For Clothing </button>
                 </div>
             </div>
         </div>

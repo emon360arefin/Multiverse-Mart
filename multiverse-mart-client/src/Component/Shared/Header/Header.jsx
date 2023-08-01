@@ -5,10 +5,13 @@ import Lottie from "lottie-react";
 import { HiMagnifyingGlass } from "react-icons/hi2";
 import { AiOutlineClose } from "react-icons/ai";
 import signUpAnimation from './../../../assets/animation/animation_lkilhovo.json';
+<<<<<<< HEAD
 import Marquee from "react-fast-marquee";
 
 
 
+=======
+>>>>>>> cbf1f92c90b0646fafbb9abd26f066fdecbd96d0
 import './Header.css'
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
@@ -21,9 +24,8 @@ const Header = () => {
 
     const items = [
         { "id": 1, "name": "Shop", "path": "/shop" },
-        { "id": 2, "name": "About", "path": "/about" },
-        { "id": 3, "name": "Contact", "path": "/contact" },
-        { "id": 4, "name": "Become A Seller", "path": "/become-a-seller" }
+        { "id": 2, "name": "Product", "path": "/product" },
+        { "id": 3, "name": "Become A Seller", "path": "/become-a-seller" }
     ];
     const categories = [
         {
@@ -509,6 +511,7 @@ const Header = () => {
             setOpen(!open)
         }
     }
+
     useEffect(() => {
         if (open) {
             document.body.style.overflow = 'hidden';
@@ -518,9 +521,13 @@ const Header = () => {
     }, [open]);
 
     return (
-        <div>
+        <div className='sticky top-0 right-0 left-0 z-40'>
             {/* First part of header */}
+<<<<<<< HEAD
             <div className={`${open ? 'overlay overflow-y-auto' : ""}`} onClick={handleClose} id="wrapper">
+=======
+            <div className={`  ${open ? 'overlay' : ""}`} onClick={handleClose} id="wrapper">
+>>>>>>> cbf1f92c90b0646fafbb9abd26f066fdecbd96d0
                 {/* Mobile Responsive */}
                 <div className={`md:hidden bg-white absolute max-w-[70%] max-h-screen bottom-0 z-30 py-24  pl-10  duration-500 border-r-2 border-b-2 ${open ? "left-0" : "left-[-100%]"}`} >
                     <div className='flex justify-between items-center gap-5'>
@@ -548,20 +555,20 @@ const Header = () => {
                         <div className='flex h-20 items-center justify-between w-full gap-auto'>
 
                             {/* Left Column */}
-                            <div className='flex gap-2 md:gap-10 items-center justify-start w-auto md:w-3/5'>
+                            <div className='flex gap-2 md:gap-10 items-center justify-between w-auto md:w-3/5'>
 
                                 {/* Hamburger */}
                                 <div className='text-2xl block md:hidden' onClick={() => { setOpen(!open) }}>
                                     {open ? <AiOutlineClose></AiOutlineClose> : <HiOutlineMenu></HiOutlineMenu>}
                                 </div>
-                                <div className='w-12 md:w-64'>
-                                    <a href="">
-                                        <img src="/Multiverse Mart Logo.png " alt="" className='w-full hidden md:block' />
+                                <div className='w-12 md:w-64 flex justify-center items-center'>
+                                    <a href="" className=''>
+                                        <img src="/logo-blue.png" alt="" className=' h-[45px] hidden md:block' />
                                         <img src="/favicon.png" alt="" className='w-full block md:hidden' />
                                     </a>
                                 </div>
                                 <div className='hidden md:block '>
-                                    <ul className='flex gap-6 font-semibold items-center '>
+                                    <ul className='flex gap-6 items-center '>
                                         {
                                             items && items.map(item => <li className='cursor-pointer text-black py-7 ' key={item.id}>{item.name}</li>)
                                         }
@@ -628,7 +635,7 @@ const Header = () => {
                 </div>
             </div>
             {/* Second part of header(Category menu)*/}
-            <div className='w-[95%] mx-auto flex justify-between items-center overflow-x-scroll categories-header'>
+            <div className='w-[95%] mx-auto flex justify-between items-center overflow-x-scroll'>
                 {
                     categories.map(category => <NavLink category={category} key={category.id}></NavLink>)
                 }
