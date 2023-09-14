@@ -5,13 +5,9 @@ import Lottie from "lottie-react";
 import { HiMagnifyingGlass } from "react-icons/hi2";
 import { AiOutlineClose } from "react-icons/ai";
 import signUpAnimation from './../../../assets/animation/animation_lkilhovo.json';
-<<<<<<< HEAD
-import Marquee from "react-fast-marquee";
 
 
 
-=======
->>>>>>> cbf1f92c90b0646fafbb9abd26f066fdecbd96d0
 import './Header.css'
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
@@ -523,11 +519,7 @@ const Header = () => {
     return (
         <div className='sticky top-0 right-0 left-0 z-40'>
             {/* First part of header */}
-<<<<<<< HEAD
             <div className={`${open ? 'overlay overflow-y-auto' : ""}`} onClick={handleClose} id="wrapper">
-=======
-            <div className={`  ${open ? 'overlay' : ""}`} onClick={handleClose} id="wrapper">
->>>>>>> cbf1f92c90b0646fafbb9abd26f066fdecbd96d0
                 {/* Mobile Responsive */}
                 <div className={`md:hidden bg-white absolute max-w-[70%] max-h-screen bottom-0 z-30 py-24  pl-10  duration-500 border-r-2 border-b-2 ${open ? "left-0" : "left-[-100%]"}`} >
                     <div className='flex justify-between items-center gap-5'>
