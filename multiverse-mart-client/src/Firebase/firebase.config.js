@@ -13,5 +13,17 @@ const firebaseConfig = {
   appId:import.meta.env.VITE_appId,
 };
 
+
+// Your web app's Firebase configuration
+// const firebaseConfig = {
+//   apiKey: "AIzaSyB2K-6Ba9ScEQFC3dPeeoxtuuqueM7DWrc",
+//   authDomain: "multiversemart-157a1.firebaseapp.com",
+//   projectId: "multiversemart-157a1",
+//   storageBucket: "multiversemart-157a1.appspot.com",
+//   messagingSenderId: "1011727313073",
+//   appId: "1:1011727313073:web:a867975111d7e266439a90"
+// };
+
+
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
