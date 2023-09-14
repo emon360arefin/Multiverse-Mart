@@ -5,7 +5,7 @@ import Lottie from "lottie-react";
 import { HiMagnifyingGlass } from "react-icons/hi2";
 import { AiOutlineClose } from "react-icons/ai";
 import signUpAnimation from './../../../assets/animation/animation_lkilhovo.json';
-import Marquee from "react-fast-marquee";
+
 
 
 
@@ -18,7 +18,16 @@ import MobileNavLinks from './MobileNavLinks';
 const Header = () => {
     const [open, setOpen] = useState(false)
     const [onFocus, setOnFocus] = useState(false)
-
+    const [navbar,setNavbar]=useState(false)
+    const changeBackground=()=>{
+        if(window.scrollY >=80){
+            setNavbar(true);
+        }
+        else{
+            setNavbar(false);
+        }
+    }
+    window.addEventListener('scroll',changeBackground);
     const items = [
         { "id": 1, "name": "Shop", "path": "/shop" },
         { "id": 2, "name": "Product", "path": "/product" },
@@ -517,9 +526,10 @@ const Header = () => {
         }
     }, [open]);
 
+    
     return (
         <>
-            <div className='sticky top-0 right-0 left-0 z-40' >
+            <div className='sticky top-0 right-0 left-0 z-50' >
                 {/* First part of header */}
                 <div className={`${open ? 'overlay overflow-y-auto' : ""}`} onClick={handleClose} id="wrapper">
                     <div className={`  ${open ? 'overlay' : ""}`} onClick={handleClose} id="wrapper">
@@ -545,7 +555,7 @@ const Header = () => {
                                 }
                             </ul>
                         </div>
-                        <div className={`bg-[#e6f1ff] bg-opacity-50 backdrop-filter backdrop-blur-xl sticky top-0 left-0 right-0 z-30  shadow-sm `}>
+                        <div className={`${navbar?'bg-[#7694bb]':'bg-[#e6f1ff] bg-opacity-50'} backdrop-filter backdrop-blur-xl sticky top-0 left-0 right-0 z-30  shadow-sm `}>
                             <div className='w-[95%] mx-auto'>
                                 <div className='flex h-20 items-center justify-between w-full gap-auto'>
 
@@ -629,16 +639,14 @@ const Header = () => {
                             </div>
                         </div>
                     </div>
-                    {/* Second part of header(Category menu)*/}
-                    <div className='w-[95%] mx-auto flex justify-between items-center overflow-x-scroll'>
+                </div>                                      
+            </div>
+            {/* Second part of header(Category menu)*/}
+            <div className='w-[95%] mx-auto hidden md:flex justify-between items-center overflow-x-scroll hidden-scrollbar '>
                         {
                             categories.map(category => <NavLink category={category} key={category.id}></NavLink>)
                         }
-                    </div>
-                </div>
-
-            </div>
-
+                </div>                                    
         </>
     )
 };
