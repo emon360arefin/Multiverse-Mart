@@ -6,9 +6,6 @@ import { AiFillEyeInvisible, AiFillEye } from "react-icons/ai";
 
 
 const Login = () => {
-
-
-
     const [error, setError] = useState(null);
     const [success, setSuccess] = useState(null);
     const [hidden, setHidden] = useState(true)
