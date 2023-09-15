@@ -78,7 +78,7 @@ const Login = () => {
 
                                     <div onClick={() => setHidden(!hidden)}>
                                         {
-                                            hidden ? <AiFillEyeInvisible className='cursor-pointer text-2xl hover:text-[#2996FF]'></AiFillEyeInvisible> :
+                                            hidden ? <AiFillEyeInvisible className='cursor-pointer text-2xl select-none hover:text-[#2996FF]'></AiFillEyeInvisible> :
                                                 <AiFillEye className='cursor-pointer text-2xl hover:text-[#2996FF]'></AiFillEye>
                                         }
                                     </div>
