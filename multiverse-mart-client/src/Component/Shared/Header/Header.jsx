@@ -17,7 +17,6 @@ import MobileNavLinks from './MobileNavLinks';
 const Header = () => {
     const [open, setOpen] = useState(false)
     const [onFocus, setOnFocus] = useState(false)
-
     const items = [
         { "id": 1, "name": "Shop", "path": "/shop" },
         { "id": 2, "name": "Product", "path": "/product" },

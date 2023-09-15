@@ -1,11 +1,9 @@
 import React from 'react';
-import Marquee from "react-fast-marquee";
 import { Link } from 'react-router-dom';
-
 const NavLink = ({ category,open }) => {
 
     return (
-        <div className='cursor-pointer text-black py-7  px-3 flex flex-col justify-center items-center gap-3 z-50 group'>
+        <div className='cursor-pointer text-black py-7  px-3 flex flex-col justify-center items-center gap-3 z-40 group'>
             {open?"":<img className='w-36' src={category.image} alt="" />}
             <h1 className=' font-medium'><Link>{category.name}</Link></h1>
             {
